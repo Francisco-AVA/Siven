@@ -132,6 +132,7 @@ namespace APP_SIVENTU
             DataRow[] dt = conn.readQuery(query, "usuario", true);
 
             if(dt.Length==1)
+
             {
                 DataRow dtAlone = dt[0];
                 int identifier = int.Parse(dtAlone[0].ToString().Trim());
