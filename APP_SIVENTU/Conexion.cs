@@ -8,11 +8,13 @@ namespace APP_SIVENTU
     {
 
         private static SqlConnection conexion()
-        {
-            SqlConnection conn = new SqlConnection("Data Source=(LocalDB)\\MSSQLLocalDB;AttachDbFilename=C:\\Users\\nelso\\Desktop\\APP_SIVENTU\\APP_SIVENTU\\databaseSIVENTU.mdf;Integrated Security=True");
-                //("Data Source = (LocalDB)\\MSSQLLocalDB; AttachDbFilename = C:\\Users\\nelso\\Desktop\\APP_SIVENTU\\APP_SIVENTU\\databaseSIVENTU.mdf; Integrated Security = True");
+        {               //FRAN--
+              // SqlConnection conn = new SqlConnection("Data Source=(LocalDB)\\MSSQLLocalDB;AttachDbFilename=C:\\Users\\nelso\\Desktop\\APP_SIVENTU\\APP_SIVENTU\\databaseSIVENTU.mdf;Integrated Security=True");
+           
+            //KATIA
+            SqlConnection conn = new SqlConnection("Data Source=(LocalDB)\\MSSQLLocalDB;AttachDbFilename=C:\\APP_SIVENTU\\APP_SIVENTU\\databaseSIVENTU.mdf;Integrated Security=True");
 
-            return conn;   //CAMBIAR DIRECCION ("Data Source = (LocalDB)\\MSSQLLocalDB; AttachDbFilename = C:\\Users\\nelso\\Desktop\\APP_SIVENTU\\APP_SIVENTU\\databaseSIVENTU.mdf; Integrated Security = True") DE LA BASE PARA EVITAR ERROR :3
+            return conn;   
         }
 
         public DataSet readQuery(string query,string table)
