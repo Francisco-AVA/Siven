@@ -76,7 +76,7 @@ namespace APP_SIVENTU
             }
             else
             {
-                MessageBox.Show("no funcionó");
+                MessageBox.Show("No se pudo eliminar");
             }
 
         }

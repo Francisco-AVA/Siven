@@ -1,11 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 using System.Data.SqlClient;
@@ -84,7 +77,27 @@ namespace APP_SIVENTU
             rcfrom.Show();
         }
 
-       
+        //OCULTAR CONTRASEÑA
+        private void txtcontra_OnValueChanged(object sender, EventArgs e)
+        {
+            txtcontra.isPassword = true;
+        }
+
+        private void button_desactive_Click(object sender, EventArgs e)
+        {
+            txtcontra.isPassword = false;
+            button_desactive.Visible = false;
+            button_ocultar.Visible = true;
+            txtcontra.Focus();
+        }
+
+        private void button_ocultar_Click(object sender, EventArgs e)
+        {
+            txtcontra.isPassword = true;
+            button_ocultar.Visible = false;
+            button_desactive.Visible = true;
+            txtcontra.Focus();
+        }
     }
 
 }

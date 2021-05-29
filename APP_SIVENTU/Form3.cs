@@ -216,5 +216,48 @@ namespace APP_SIVENTU
         {
             validacion.SoloLetras(e);
         }
+
+        //OCULTAR Y MOSTRAR CONTRASEÑA
+        private void button_mostrar_emple_Click(object sender, EventArgs e)
+        {
+            txtContra2.isPassword = false;
+            button_mostrar_emple.Visible = false;
+            button_ocultar_emple.Visible = true;
+            txtContra2.Focus();
+        }
+        
+        private void button_ocultar_emple_Click(object sender, EventArgs e)
+        {
+            txtContra2.isPassword = true;
+            button_ocultar_emple.Visible = false;
+            button_mostrar_emple.Visible = true;
+            txtContra2.Focus();
+        }
+        //-------------------------------------------------------------------------------------
+        private void button_mostrar_emple2_Click(object sender, EventArgs e)
+        {
+            txtConfirmacion.isPassword = false;
+            button_mostrar_emple2.Visible = false;
+           button_mostrar_emple2.Visible = true;
+           txtConfirmacion.Focus();
+        }
+
+        private void button_ocultar_emple2_Click(object sender, EventArgs e)
+        {
+            txtConfirmacion.isPassword = true;
+            button_ocultar_emple2.Visible = false;
+            button_mostrar_emple2.Visible = true;
+            txtConfirmacion.Focus();
+        }
+        //-------------------------------------------------------------------------------
+        private void txtContra2_OnValueChanged_1(object sender, EventArgs e)
+        {
+            txtContra2.isPassword = true;
+        }
+
+        private void txtConfirmacion_OnValueChanged(object sender, EventArgs e)
+        {
+            txtConfirmacion.isPassword = true;
+        }
     }
 }

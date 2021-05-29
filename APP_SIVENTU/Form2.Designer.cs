@@ -35,6 +35,7 @@ namespace APP_SIVENTU
             this.btmini2 = new System.Windows.Forms.PictureBox();
             this.btsalir2 = new System.Windows.Forms.PictureBox();
             this.panel3 = new Bunifu.Framework.UI.BunifuGradientPanel();
+            this.button_desactive = new System.Windows.Forms.Button();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.btingreso = new Bunifu.Framework.UI.BunifuThinButton2();
             this.olvidocontra = new System.Windows.Forms.Label();
@@ -42,6 +43,7 @@ namespace APP_SIVENTU
             this.txtcontra = new Bunifu.Framework.UI.BunifuMaterialTextbox();
             this.txtnombre = new Bunifu.Framework.UI.BunifuMaterialTextbox();
             this.Label1 = new Bunifu.Framework.UI.BunifuCustomLabel();
+            this.button_ocultar = new System.Windows.Forms.Button();
             this.panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.botonderegreso)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.btmini2)).BeginInit();
@@ -108,6 +110,8 @@ namespace APP_SIVENTU
             this.panel3.BackColor = System.Drawing.Color.White;
             this.panel3.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("panel3.BackgroundImage")));
             this.panel3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.panel3.Controls.Add(this.button_ocultar);
+            this.panel3.Controls.Add(this.button_desactive);
             this.panel3.Controls.Add(this.pictureBox2);
             this.panel3.Controls.Add(this.btingreso);
             this.panel3.Controls.Add(this.olvidocontra);
@@ -125,6 +129,18 @@ namespace APP_SIVENTU
             this.panel3.Quality = 10;
             this.panel3.Size = new System.Drawing.Size(937, 575);
             this.panel3.TabIndex = 3;
+            // 
+            // button_desactive
+            // 
+            this.button_desactive.FlatAppearance.BorderSize = 0;
+            this.button_desactive.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button_desactive.Image = global::APP_SIVENTU.Properties.Resources.ojo_visible___copia;
+            this.button_desactive.Location = new System.Drawing.Point(661, 330);
+            this.button_desactive.Name = "button_desactive";
+            this.button_desactive.Size = new System.Drawing.Size(65, 54);
+            this.button_desactive.TabIndex = 12;
+            this.button_desactive.UseVisualStyleBackColor = true;
+            this.button_desactive.Click += new System.EventHandler(this.button_desactive_Click);
             // 
             // pictureBox2
             // 
@@ -206,9 +222,10 @@ namespace APP_SIVENTU
             this.txtcontra.Location = new System.Drawing.Point(233, 330);
             this.txtcontra.Margin = new System.Windows.Forms.Padding(5);
             this.txtcontra.Name = "txtcontra";
-            this.txtcontra.Size = new System.Drawing.Size(493, 54);
+            this.txtcontra.Size = new System.Drawing.Size(430, 54);
             this.txtcontra.TabIndex = 5;
             this.txtcontra.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.txtcontra.OnValueChanged += new System.EventHandler(this.txtcontra_OnValueChanged);
             // 
             // txtnombre
             // 
@@ -244,6 +261,18 @@ namespace APP_SIVENTU
             this.Label1.Size = new System.Drawing.Size(141, 42);
             this.Label1.TabIndex = 0;
             this.Label1.Text = "LOGIN";
+            // 
+            // button_ocultar
+            // 
+            this.button_ocultar.FlatAppearance.BorderSize = 0;
+            this.button_ocultar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button_ocultar.Image = global::APP_SIVENTU.Properties.Resources.invisible1;
+            this.button_ocultar.Location = new System.Drawing.Point(661, 330);
+            this.button_ocultar.Name = "button_ocultar";
+            this.button_ocultar.Size = new System.Drawing.Size(65, 54);
+            this.button_ocultar.TabIndex = 13;
+            this.button_ocultar.UseVisualStyleBackColor = true;
+            this.button_ocultar.Click += new System.EventHandler(this.button_ocultar_Click);
             // 
             // InicioDeSeccion
             // 
@@ -284,5 +313,7 @@ namespace APP_SIVENTU
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.PictureBox pictureBox2;
         private System.Windows.Forms.PictureBox botonderegreso;
+        private System.Windows.Forms.Button button_desactive;
+        private System.Windows.Forms.Button button_ocultar;
     }
 }
