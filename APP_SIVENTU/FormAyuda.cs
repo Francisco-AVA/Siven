@@ -63,5 +63,10 @@ namespace APP_SIVENTU
             Ayuda6 ayu = new Ayuda6();
             ayu.Show();
         }
+
+        private void FormAyuda_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

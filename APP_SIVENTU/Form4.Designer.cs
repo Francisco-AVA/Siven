@@ -63,19 +63,17 @@ namespace APP_SIVENTU
             this.panel4.Controls.Add(this.btsalir3);
             this.panel4.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel4.Location = new System.Drawing.Point(0, 0);
-            this.panel4.Margin = new System.Windows.Forms.Padding(4);
             this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(1200, 49);
+            this.panel4.Size = new System.Drawing.Size(900, 40);
             this.panel4.TabIndex = 3;
             // 
             // botonderegreso2
             // 
             this.botonderegreso2.Cursor = System.Windows.Forms.Cursors.Hand;
             this.botonderegreso2.Image = global::APP_SIVENTU.Properties.Resources.regreso;
-            this.botonderegreso2.Location = new System.Drawing.Point(22, 6);
-            this.botonderegreso2.Margin = new System.Windows.Forms.Padding(4);
+            this.botonderegreso2.Location = new System.Drawing.Point(16, 5);
             this.botonderegreso2.Name = "botonderegreso2";
-            this.botonderegreso2.Size = new System.Drawing.Size(40, 37);
+            this.botonderegreso2.Size = new System.Drawing.Size(30, 30);
             this.botonderegreso2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.botonderegreso2.TabIndex = 3;
             this.botonderegreso2.TabStop = false;
@@ -84,10 +82,9 @@ namespace APP_SIVENTU
             // btmini3
             // 
             this.btmini3.Image = ((System.Drawing.Image)(resources.GetObject("btmini3.Image")));
-            this.btmini3.Location = new System.Drawing.Point(1068, 6);
-            this.btmini3.Margin = new System.Windows.Forms.Padding(4);
+            this.btmini3.Location = new System.Drawing.Point(801, 5);
             this.btmini3.Name = "btmini3";
-            this.btmini3.Size = new System.Drawing.Size(40, 37);
+            this.btmini3.Size = new System.Drawing.Size(30, 30);
             this.btmini3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.btmini3.TabIndex = 1;
             this.btmini3.TabStop = false;
@@ -96,10 +93,9 @@ namespace APP_SIVENTU
             // btsalir3
             // 
             this.btsalir3.Image = ((System.Drawing.Image)(resources.GetObject("btsalir3.Image")));
-            this.btsalir3.Location = new System.Drawing.Point(1128, 6);
-            this.btsalir3.Margin = new System.Windows.Forms.Padding(4);
+            this.btsalir3.Location = new System.Drawing.Point(846, 5);
             this.btsalir3.Name = "btsalir3";
-            this.btsalir3.Size = new System.Drawing.Size(40, 37);
+            this.btsalir3.Size = new System.Drawing.Size(30, 30);
             this.btsalir3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.btsalir3.TabIndex = 0;
             this.btsalir3.TabStop = false;
@@ -111,17 +107,17 @@ namespace APP_SIVENTU
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.Panel6contenedor.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(194)))), ((int)(((byte)(192)))));
+            this.Panel6contenedor.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("Panel6contenedor.BackgroundImage")));
             this.Panel6contenedor.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.Panel6contenedor.Controls.Add(this.logodemenu);
             this.Panel6contenedor.GradientBottomLeft = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(194)))), ((int)(((byte)(192)))));
             this.Panel6contenedor.GradientBottomRight = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(194)))), ((int)(((byte)(192)))));
             this.Panel6contenedor.GradientTopLeft = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(194)))), ((int)(((byte)(192)))));
             this.Panel6contenedor.GradientTopRight = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(194)))), ((int)(((byte)(192)))));
-            this.Panel6contenedor.Location = new System.Drawing.Point(347, 74);
-            this.Panel6contenedor.Margin = new System.Windows.Forms.Padding(4);
+            this.Panel6contenedor.Location = new System.Drawing.Point(260, 60);
             this.Panel6contenedor.Name = "Panel6contenedor";
             this.Panel6contenedor.Quality = 10;
-            this.Panel6contenedor.Size = new System.Drawing.Size(840, 683);
+            this.Panel6contenedor.Size = new System.Drawing.Size(630, 555);
             this.Panel6contenedor.TabIndex = 6;
             // 
             // logodemenu
@@ -130,9 +126,8 @@ namespace APP_SIVENTU
             this.logodemenu.Dock = System.Windows.Forms.DockStyle.Fill;
             this.logodemenu.Image = global::APP_SIVENTU.Properties.Resources.logo_removebg_preview;
             this.logodemenu.Location = new System.Drawing.Point(0, 0);
-            this.logodemenu.Margin = new System.Windows.Forms.Padding(4);
             this.logodemenu.Name = "logodemenu";
-            this.logodemenu.Size = new System.Drawing.Size(840, 683);
+            this.logodemenu.Size = new System.Drawing.Size(630, 555);
             this.logodemenu.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.logodemenu.TabIndex = 0;
             this.logodemenu.TabStop = false;
@@ -156,11 +151,10 @@ namespace APP_SIVENTU
             this.panel5.GradientBottomRight = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(194)))), ((int)(((byte)(192)))));
             this.panel5.GradientTopLeft = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(194)))), ((int)(((byte)(192)))));
             this.panel5.GradientTopRight = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(194)))), ((int)(((byte)(192)))));
-            this.panel5.Location = new System.Drawing.Point(16, 74);
-            this.panel5.Margin = new System.Windows.Forms.Padding(4);
+            this.panel5.Location = new System.Drawing.Point(12, 60);
             this.panel5.Name = "panel5";
             this.panel5.Quality = 10;
-            this.panel5.Size = new System.Drawing.Size(307, 683);
+            this.panel5.Size = new System.Drawing.Size(230, 555);
             this.panel5.TabIndex = 5;
             // 
             // btregistro
@@ -184,14 +178,14 @@ namespace APP_SIVENTU
             this.btregistro.IconVisible = true;
             this.btregistro.IconZoom = 80D;
             this.btregistro.IsTab = false;
-            this.btregistro.Location = new System.Drawing.Point(21, 75);
-            this.btregistro.Margin = new System.Windows.Forms.Padding(5);
+            this.btregistro.Location = new System.Drawing.Point(16, 61);
+            this.btregistro.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btregistro.Name = "btregistro";
             this.btregistro.Normalcolor = System.Drawing.Color.Transparent;
             this.btregistro.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(163)))), ((int)(((byte)(124)))), ((int)(((byte)(130)))));
             this.btregistro.OnHoverTextColor = System.Drawing.SystemColors.MenuText;
             this.btregistro.selected = false;
-            this.btregistro.Size = new System.Drawing.Size(259, 59);
+            this.btregistro.Size = new System.Drawing.Size(194, 48);
             this.btregistro.TabIndex = 11;
             this.btregistro.Text = "Empleados";
             this.btregistro.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -220,14 +214,14 @@ namespace APP_SIVENTU
             this.btayuda.IconVisible = true;
             this.btayuda.IconZoom = 80D;
             this.btayuda.IsTab = false;
-            this.btayuda.Location = new System.Drawing.Point(21, 604);
-            this.btayuda.Margin = new System.Windows.Forms.Padding(5);
+            this.btayuda.Location = new System.Drawing.Point(16, 491);
+            this.btayuda.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btayuda.Name = "btayuda";
             this.btayuda.Normalcolor = System.Drawing.Color.Transparent;
             this.btayuda.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(163)))), ((int)(((byte)(124)))), ((int)(((byte)(130)))));
             this.btayuda.OnHoverTextColor = System.Drawing.Color.Black;
             this.btayuda.selected = false;
-            this.btayuda.Size = new System.Drawing.Size(189, 59);
+            this.btayuda.Size = new System.Drawing.Size(142, 48);
             this.btayuda.TabIndex = 10;
             this.btayuda.Text = "Ayuda";
             this.btayuda.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -256,14 +250,14 @@ namespace APP_SIVENTU
             this.btproductos.IconVisible = true;
             this.btproductos.IconZoom = 80D;
             this.btproductos.IsTab = false;
-            this.btproductos.Location = new System.Drawing.Point(21, 430);
-            this.btproductos.Margin = new System.Windows.Forms.Padding(5);
+            this.btproductos.Location = new System.Drawing.Point(16, 349);
+            this.btproductos.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btproductos.Name = "btproductos";
             this.btproductos.Normalcolor = System.Drawing.Color.Transparent;
             this.btproductos.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(163)))), ((int)(((byte)(124)))), ((int)(((byte)(130)))));
             this.btproductos.OnHoverTextColor = System.Drawing.Color.Black;
             this.btproductos.selected = false;
-            this.btproductos.Size = new System.Drawing.Size(247, 59);
+            this.btproductos.Size = new System.Drawing.Size(185, 48);
             this.btproductos.TabIndex = 9;
             this.btproductos.Text = "Productos";
             this.btproductos.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -292,14 +286,14 @@ namespace APP_SIVENTU
             this.btcompras.IconVisible = true;
             this.btcompras.IconZoom = 80D;
             this.btcompras.IsTab = false;
-            this.btcompras.Location = new System.Drawing.Point(21, 518);
-            this.btcompras.Margin = new System.Windows.Forms.Padding(5);
+            this.btcompras.Location = new System.Drawing.Point(16, 421);
+            this.btcompras.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btcompras.Name = "btcompras";
             this.btcompras.Normalcolor = System.Drawing.Color.Transparent;
             this.btcompras.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(163)))), ((int)(((byte)(124)))), ((int)(((byte)(130)))));
             this.btcompras.OnHoverTextColor = System.Drawing.Color.Black;
             this.btcompras.selected = false;
-            this.btcompras.Size = new System.Drawing.Size(232, 59);
+            this.btcompras.Size = new System.Drawing.Size(174, 48);
             this.btcompras.TabIndex = 8;
             this.btcompras.Text = "Compras";
             this.btcompras.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -328,14 +322,14 @@ namespace APP_SIVENTU
             this.btfactura.IconVisible = true;
             this.btfactura.IconZoom = 80D;
             this.btfactura.IsTab = false;
-            this.btfactura.Location = new System.Drawing.Point(21, 345);
-            this.btfactura.Margin = new System.Windows.Forms.Padding(5);
+            this.btfactura.Location = new System.Drawing.Point(16, 280);
+            this.btfactura.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btfactura.Name = "btfactura";
             this.btfactura.Normalcolor = System.Drawing.Color.Transparent;
             this.btfactura.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(163)))), ((int)(((byte)(124)))), ((int)(((byte)(130)))));
             this.btfactura.OnHoverTextColor = System.Drawing.Color.Black;
             this.btfactura.selected = false;
-            this.btfactura.Size = new System.Drawing.Size(232, 59);
+            this.btfactura.Size = new System.Drawing.Size(174, 48);
             this.btfactura.TabIndex = 7;
             this.btfactura.Text = "Facturas";
             this.btfactura.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -364,14 +358,14 @@ namespace APP_SIVENTU
             this.btproveedores.IconVisible = true;
             this.btproveedores.IconZoom = 80D;
             this.btproveedores.IsTab = false;
-            this.btproveedores.Location = new System.Drawing.Point(21, 254);
-            this.btproveedores.Margin = new System.Windows.Forms.Padding(5);
+            this.btproveedores.Location = new System.Drawing.Point(16, 206);
+            this.btproveedores.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btproveedores.Name = "btproveedores";
             this.btproveedores.Normalcolor = System.Drawing.Color.Transparent;
             this.btproveedores.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(163)))), ((int)(((byte)(124)))), ((int)(((byte)(130)))));
             this.btproveedores.OnHoverTextColor = System.Drawing.Color.Black;
             this.btproveedores.selected = false;
-            this.btproveedores.Size = new System.Drawing.Size(280, 59);
+            this.btproveedores.Size = new System.Drawing.Size(210, 48);
             this.btproveedores.TabIndex = 5;
             this.btproveedores.Text = "Proveedores";
             this.btproveedores.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -400,14 +394,14 @@ namespace APP_SIVENTU
             this.btclientes.IconVisible = true;
             this.btclientes.IconZoom = 80D;
             this.btclientes.IsTab = false;
-            this.btclientes.Location = new System.Drawing.Point(21, 159);
-            this.btclientes.Margin = new System.Windows.Forms.Padding(5);
+            this.btclientes.Location = new System.Drawing.Point(16, 129);
+            this.btclientes.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btclientes.Name = "btclientes";
             this.btclientes.Normalcolor = System.Drawing.Color.Transparent;
             this.btclientes.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(163)))), ((int)(((byte)(124)))), ((int)(((byte)(130)))));
             this.btclientes.OnHoverTextColor = System.Drawing.SystemColors.MenuText;
             this.btclientes.selected = false;
-            this.btclientes.Size = new System.Drawing.Size(217, 59);
+            this.btclientes.Size = new System.Drawing.Size(163, 48);
             this.btclientes.TabIndex = 0;
             this.btclientes.Text = "Clientes";
             this.btclientes.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -420,10 +414,9 @@ namespace APP_SIVENTU
             this.Labelmenu.AutoSize = true;
             this.Labelmenu.BackColor = System.Drawing.Color.Transparent;
             this.Labelmenu.Font = new System.Drawing.Font("Times New Roman", 24F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Labelmenu.Location = new System.Drawing.Point(71, 14);
-            this.Labelmenu.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.Labelmenu.Location = new System.Drawing.Point(53, 11);
             this.Labelmenu.Name = "Labelmenu";
-            this.Labelmenu.Size = new System.Drawing.Size(141, 46);
+            this.Labelmenu.Size = new System.Drawing.Size(110, 36);
             this.Labelmenu.TabIndex = 4;
             this.Labelmenu.Text = "MENÚ";
             this.Labelmenu.TextAlign = System.Drawing.ContentAlignment.TopCenter;
@@ -433,28 +426,28 @@ namespace APP_SIVENTU
             this.bunifuSeparator1.BackColor = System.Drawing.Color.Transparent;
             this.bunifuSeparator1.LineColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(105)))), ((int)(((byte)(105)))));
             this.bunifuSeparator1.LineThickness = 1;
-            this.bunifuSeparator1.Location = new System.Drawing.Point(0, 46);
-            this.bunifuSeparator1.Margin = new System.Windows.Forms.Padding(5);
+            this.bunifuSeparator1.Location = new System.Drawing.Point(0, 37);
+            this.bunifuSeparator1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.bunifuSeparator1.Name = "bunifuSeparator1";
-            this.bunifuSeparator1.Size = new System.Drawing.Size(307, 43);
+            this.bunifuSeparator1.Size = new System.Drawing.Size(230, 35);
             this.bunifuSeparator1.TabIndex = 1;
             this.bunifuSeparator1.Transparency = 255;
             this.bunifuSeparator1.Vertical = false;
             // 
             // menuFrom
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(135)))), ((int)(((byte)(92)))), ((int)(((byte)(116)))));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(1200, 772);
+            this.ClientSize = new System.Drawing.Size(900, 627);
             this.Controls.Add(this.Panel6contenedor);
             this.Controls.Add(this.panel5);
             this.Controls.Add(this.panel4);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "menuFrom";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.Load += new System.EventHandler(this.menuFrom_Load);
             this.panel4.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.botonderegreso2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.btmini3)).EndInit();

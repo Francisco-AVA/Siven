@@ -56,19 +56,17 @@ namespace APP_SIVENTU
             this.panel3.Controls.Add(this.Labelayudatitulo);
             this.panel3.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel3.Location = new System.Drawing.Point(0, 0);
-            this.panel3.Margin = new System.Windows.Forms.Padding(4);
             this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(840, 58);
+            this.panel3.Size = new System.Drawing.Size(630, 47);
             this.panel3.TabIndex = 5;
             // 
             // pictureBox2
             // 
             this.pictureBox2.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox2.Image = global::APP_SIVENTU.Properties.Resources.pregunta;
-            this.pictureBox2.Location = new System.Drawing.Point(164, 3);
-            this.pictureBox2.Margin = new System.Windows.Forms.Padding(4);
+            this.pictureBox2.Location = new System.Drawing.Point(123, 2);
             this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(65, 43);
+            this.pictureBox2.Size = new System.Drawing.Size(49, 35);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox2.TabIndex = 8;
             this.pictureBox2.TabStop = false;
@@ -77,10 +75,9 @@ namespace APP_SIVENTU
             // 
             this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox1.Image = global::APP_SIVENTU.Properties.Resources.pregunta;
-            this.pictureBox1.Location = new System.Drawing.Point(621, 4);
-            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4);
+            this.pictureBox1.Location = new System.Drawing.Point(466, 3);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(65, 43);
+            this.pictureBox1.Size = new System.Drawing.Size(49, 35);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox1.TabIndex = 7;
             this.pictureBox1.TabStop = false;
@@ -91,20 +88,18 @@ namespace APP_SIVENTU
             this.Labelayudatitulo.BackColor = System.Drawing.Color.Transparent;
             this.Labelayudatitulo.Font = new System.Drawing.Font("Arial Rounded MT Bold", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Labelayudatitulo.ForeColor = System.Drawing.Color.White;
-            this.Labelayudatitulo.Location = new System.Drawing.Point(227, 9);
-            this.Labelayudatitulo.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.Labelayudatitulo.Location = new System.Drawing.Point(170, 7);
             this.Labelayudatitulo.Name = "Labelayudatitulo";
-            this.Labelayudatitulo.Size = new System.Drawing.Size(377, 39);
+            this.Labelayudatitulo.Size = new System.Drawing.Size(299, 32);
             this.Labelayudatitulo.TabIndex = 6;
             this.Labelayudatitulo.Text = "AYUDA DEL SISTEMA";
             // 
             // pictureBox3
             // 
             this.pictureBox3.Image = global::APP_SIVENTU.Properties.Resources.logo_removebg_preview;
-            this.pictureBox3.Location = new System.Drawing.Point(13, 66);
-            this.pictureBox3.Margin = new System.Windows.Forms.Padding(4);
+            this.pictureBox3.Location = new System.Drawing.Point(10, 54);
             this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(170, 96);
+            this.pictureBox3.Size = new System.Drawing.Size(128, 78);
             this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox3.TabIndex = 6;
             this.pictureBox3.TabStop = false;
@@ -117,10 +112,9 @@ namespace APP_SIVENTU
             this.busqueda.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.busqueda.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(136)))), ((int)(((byte)(34)))), ((int)(((byte)(76)))));
             this.busqueda.Icon = ((System.Drawing.Image)(resources.GetObject("busqueda.Icon")));
-            this.busqueda.Location = new System.Drawing.Point(197, 84);
-            this.busqueda.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.busqueda.Location = new System.Drawing.Point(148, 68);
             this.busqueda.Name = "busqueda";
-            this.busqueda.Size = new System.Drawing.Size(630, 52);
+            this.busqueda.Size = new System.Drawing.Size(472, 42);
             this.busqueda.TabIndex = 8;
             this.busqueda.text = "";
             // 
@@ -145,14 +139,13 @@ namespace APP_SIVENTU
             this.bunifuFlatButton1.IconVisible = true;
             this.bunifuFlatButton1.IconZoom = 90D;
             this.bunifuFlatButton1.IsTab = false;
-            this.bunifuFlatButton1.Location = new System.Drawing.Point(22, 180);
-            this.bunifuFlatButton1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.bunifuFlatButton1.Location = new System.Drawing.Point(16, 146);
             this.bunifuFlatButton1.Name = "bunifuFlatButton1";
             this.bunifuFlatButton1.Normalcolor = System.Drawing.Color.FromArgb(((int)(((byte)(135)))), ((int)(((byte)(92)))), ((int)(((byte)(116)))));
             this.bunifuFlatButton1.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(87)))), ((int)(((byte)(57)))), ((int)(((byte)(74)))));
             this.bunifuFlatButton1.OnHoverTextColor = System.Drawing.Color.White;
             this.bunifuFlatButton1.selected = false;
-            this.bunifuFlatButton1.Size = new System.Drawing.Size(399, 59);
+            this.bunifuFlatButton1.Size = new System.Drawing.Size(299, 48);
             this.bunifuFlatButton1.TabIndex = 9;
             this.bunifuFlatButton1.Text = "¿Cómo crear una factura?";
             this.bunifuFlatButton1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -181,14 +174,13 @@ namespace APP_SIVENTU
             this.bunifuFlatButton2.IconVisible = true;
             this.bunifuFlatButton2.IconZoom = 90D;
             this.bunifuFlatButton2.IsTab = false;
-            this.bunifuFlatButton2.Location = new System.Drawing.Point(22, 337);
-            this.bunifuFlatButton2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.bunifuFlatButton2.Location = new System.Drawing.Point(16, 274);
             this.bunifuFlatButton2.Name = "bunifuFlatButton2";
             this.bunifuFlatButton2.Normalcolor = System.Drawing.Color.FromArgb(((int)(((byte)(135)))), ((int)(((byte)(92)))), ((int)(((byte)(116)))));
             this.bunifuFlatButton2.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(87)))), ((int)(((byte)(57)))), ((int)(((byte)(74)))));
             this.bunifuFlatButton2.OnHoverTextColor = System.Drawing.Color.White;
             this.bunifuFlatButton2.selected = false;
-            this.bunifuFlatButton2.Size = new System.Drawing.Size(805, 59);
+            this.bunifuFlatButton2.Size = new System.Drawing.Size(604, 48);
             this.bunifuFlatButton2.TabIndex = 10;
             this.bunifuFlatButton2.Text = "¿Por qué al ingresar datos en los registros, los toma como invalidos?";
             this.bunifuFlatButton2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -217,14 +209,13 @@ namespace APP_SIVENTU
             this.bunifuFlatButton3.IconVisible = true;
             this.bunifuFlatButton3.IconZoom = 90D;
             this.bunifuFlatButton3.IsTab = false;
-            this.bunifuFlatButton3.Location = new System.Drawing.Point(341, 259);
-            this.bunifuFlatButton3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.bunifuFlatButton3.Location = new System.Drawing.Point(256, 210);
             this.bunifuFlatButton3.Name = "bunifuFlatButton3";
             this.bunifuFlatButton3.Normalcolor = System.Drawing.Color.FromArgb(((int)(((byte)(135)))), ((int)(((byte)(92)))), ((int)(((byte)(116)))));
             this.bunifuFlatButton3.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(87)))), ((int)(((byte)(57)))), ((int)(((byte)(74)))));
             this.bunifuFlatButton3.OnHoverTextColor = System.Drawing.Color.White;
             this.bunifuFlatButton3.selected = false;
-            this.bunifuFlatButton3.Size = new System.Drawing.Size(486, 59);
+            this.bunifuFlatButton3.Size = new System.Drawing.Size(364, 48);
             this.bunifuFlatButton3.TabIndex = 11;
             this.bunifuFlatButton3.Text = "¿Cómo eliminar un producto de una factura?";
             this.bunifuFlatButton3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -253,14 +244,13 @@ namespace APP_SIVENTU
             this.bunifuFlatButton4.IconVisible = true;
             this.bunifuFlatButton4.IconZoom = 90D;
             this.bunifuFlatButton4.IsTab = false;
-            this.bunifuFlatButton4.Location = new System.Drawing.Point(22, 259);
-            this.bunifuFlatButton4.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.bunifuFlatButton4.Location = new System.Drawing.Point(16, 210);
             this.bunifuFlatButton4.Name = "bunifuFlatButton4";
             this.bunifuFlatButton4.Normalcolor = System.Drawing.Color.FromArgb(((int)(((byte)(135)))), ((int)(((byte)(92)))), ((int)(((byte)(116)))));
             this.bunifuFlatButton4.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(87)))), ((int)(((byte)(57)))), ((int)(((byte)(74)))));
             this.bunifuFlatButton4.OnHoverTextColor = System.Drawing.Color.White;
             this.bunifuFlatButton4.selected = false;
-            this.bunifuFlatButton4.Size = new System.Drawing.Size(308, 59);
+            this.bunifuFlatButton4.Size = new System.Drawing.Size(231, 48);
             this.bunifuFlatButton4.TabIndex = 12;
             this.bunifuFlatButton4.Text = "¿Cómo anular registros?";
             this.bunifuFlatButton4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -289,14 +279,13 @@ namespace APP_SIVENTU
             this.bunifuFlatButton5.IconVisible = true;
             this.bunifuFlatButton5.IconZoom = 90D;
             this.bunifuFlatButton5.IsTab = false;
-            this.bunifuFlatButton5.Location = new System.Drawing.Point(428, 180);
-            this.bunifuFlatButton5.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.bunifuFlatButton5.Location = new System.Drawing.Point(321, 146);
             this.bunifuFlatButton5.Name = "bunifuFlatButton5";
             this.bunifuFlatButton5.Normalcolor = System.Drawing.Color.FromArgb(((int)(((byte)(135)))), ((int)(((byte)(92)))), ((int)(((byte)(116)))));
             this.bunifuFlatButton5.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(87)))), ((int)(((byte)(57)))), ((int)(((byte)(74)))));
             this.bunifuFlatButton5.OnHoverTextColor = System.Drawing.Color.White;
             this.bunifuFlatButton5.selected = false;
-            this.bunifuFlatButton5.Size = new System.Drawing.Size(399, 59);
+            this.bunifuFlatButton5.Size = new System.Drawing.Size(299, 48);
             this.bunifuFlatButton5.TabIndex = 13;
             this.bunifuFlatButton5.Text = "¿Cómo agregar más registros?";
             this.bunifuFlatButton5.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -325,14 +314,13 @@ namespace APP_SIVENTU
             this.bunifuFlatButton6.IconVisible = true;
             this.bunifuFlatButton6.IconZoom = 90D;
             this.bunifuFlatButton6.IsTab = false;
-            this.bunifuFlatButton6.Location = new System.Drawing.Point(22, 416);
-            this.bunifuFlatButton6.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.bunifuFlatButton6.Location = new System.Drawing.Point(16, 338);
             this.bunifuFlatButton6.Name = "bunifuFlatButton6";
             this.bunifuFlatButton6.Normalcolor = System.Drawing.Color.FromArgb(((int)(((byte)(135)))), ((int)(((byte)(92)))), ((int)(((byte)(116)))));
             this.bunifuFlatButton6.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(87)))), ((int)(((byte)(57)))), ((int)(((byte)(74)))));
             this.bunifuFlatButton6.OnHoverTextColor = System.Drawing.Color.White;
             this.bunifuFlatButton6.selected = false;
-            this.bunifuFlatButton6.Size = new System.Drawing.Size(805, 59);
+            this.bunifuFlatButton6.Size = new System.Drawing.Size(604, 48);
             this.bunifuFlatButton6.TabIndex = 14;
             this.bunifuFlatButton6.Text = "¿Cómo puedo modificar datos errorneos ingresados en los registros?";
             this.bunifuFlatButton6.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -342,10 +330,10 @@ namespace APP_SIVENTU
             // 
             // FormAyuda
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(194)))), ((int)(((byte)(192)))));
-            this.ClientSize = new System.Drawing.Size(840, 683);
+            this.ClientSize = new System.Drawing.Size(630, 555);
             this.Controls.Add(this.bunifuFlatButton6);
             this.Controls.Add(this.bunifuFlatButton5);
             this.Controls.Add(this.bunifuFlatButton4);
@@ -356,9 +344,9 @@ namespace APP_SIVENTU
             this.Controls.Add(this.pictureBox3);
             this.Controls.Add(this.panel3);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "FormAyuda";
             this.Text = "FormAyuda";
+            this.Load += new System.EventHandler(this.FormAyuda_Load);
             this.panel3.ResumeLayout(false);
             this.panel3.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();

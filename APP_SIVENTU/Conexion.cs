@@ -46,6 +46,7 @@ namespace APP_SIVENTU
             }
             catch(Exception e)
             {
+                System.Console.WriteLine(e);
                 return false;
             }
         }

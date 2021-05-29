@@ -48,7 +48,7 @@ namespace APP_SIVENTU
             else
 
             {
-                MessageBox.Show("No se pudo cerrar");
+
             }
         }
 
@@ -67,7 +67,7 @@ namespace APP_SIVENTU
             else
 
             {
-                MessageBox.Show("No se pudo regresar a inicio");
+
             }
         }
 
@@ -97,6 +97,11 @@ namespace APP_SIVENTU
             button_ocultar.Visible = false;
             button_desactive.Visible = true;
             txtcontra.Focus();
+        }
+
+        private void InicioDeSeccion_Load(object sender, EventArgs e)
+        {
+
         }
     }
 

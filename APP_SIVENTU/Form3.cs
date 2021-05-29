@@ -197,7 +197,7 @@ namespace APP_SIVENTU
             {
                 errorempleados.SetError(txtCorreo, " Ingrese un Email Válido");
                txtCorreo.Focus();
-                btlimpiar_regis.Enabled = false;
+                btlimpiar_regis.Enabled = true;
                 return;
             }
             else
@@ -227,15 +227,15 @@ namespace APP_SIVENTU
             txtContra2.Focus();
         }
         
-        private void button_ocultar_emple_Click(object sender, EventArgs e)
+     private void button_ocultar_emple_Click(object sender, EventArgs e)
         {
             txtContra2.isPassword = true;
             button_ocultar_emple.Visible = false;
             button_mostrar_emple.Visible = true;
             txtContra2.Focus();
         }
-        //-------------------------------------------------------------------------------------
-        private void button_mostrar_emple2_Click(object sender, EventArgs e)
+    //-------------------------------------------------------------------------------------
+    private void button_mostrar_emple2_Click(object sender, EventArgs e)
         {
             txtConfirmacion.isPassword = false;
             button_mostrar_emple2.Visible = false;
