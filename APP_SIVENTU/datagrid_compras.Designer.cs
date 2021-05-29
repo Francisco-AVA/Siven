@@ -56,10 +56,9 @@ namespace APP_SIVENTU
             this.bunifuCustomLabelcompras.BackColor = System.Drawing.Color.Transparent;
             this.bunifuCustomLabelcompras.Font = new System.Drawing.Font("Times New Roman", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bunifuCustomLabelcompras.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.bunifuCustomLabelcompras.Location = new System.Drawing.Point(208, 108);
-            this.bunifuCustomLabelcompras.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.bunifuCustomLabelcompras.Location = new System.Drawing.Point(156, 88);
             this.bunifuCustomLabelcompras.Name = "bunifuCustomLabelcompras";
-            this.bunifuCustomLabelcompras.Size = new System.Drawing.Size(474, 42);
+            this.bunifuCustomLabelcompras.Size = new System.Drawing.Size(366, 32);
             this.bunifuCustomLabelcompras.TabIndex = 89;
             this.bunifuCustomLabelcompras.Text = "REGISTRO DE COMPRAS\r\n";
             // 
@@ -90,8 +89,8 @@ namespace APP_SIVENTU
             this.dataGridViewCompras.DefaultCellStyle = dataGridViewCellStyle2;
             this.dataGridViewCompras.EnableHeadersVisualStyles = false;
             this.dataGridViewCompras.GridColor = System.Drawing.SystemColors.Menu;
-            this.dataGridViewCompras.Location = new System.Drawing.Point(60, 234);
-            this.dataGridViewCompras.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.dataGridViewCompras.Location = new System.Drawing.Point(45, 190);
+            this.dataGridViewCompras.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.dataGridViewCompras.Name = "dataGridViewCompras";
             this.dataGridViewCompras.ReadOnly = true;
             dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
@@ -111,9 +110,10 @@ namespace APP_SIVENTU
             dataGridViewCellStyle4.SelectionForeColor = System.Drawing.Color.Black;
             this.dataGridViewCompras.RowsDefaultCellStyle = dataGridViewCellStyle4;
             this.dataGridViewCompras.RowTemplate.Height = 24;
-            this.dataGridViewCompras.Size = new System.Drawing.Size(739, 350);
+            this.dataGridViewCompras.Size = new System.Drawing.Size(554, 284);
             this.dataGridViewCompras.TabIndex = 86;
             this.dataGridViewCompras.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridViewCompras_CellClick);
+            this.dataGridViewCompras.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridViewCompras_CellContentClick);
             // 
             // panel4
             // 
@@ -123,9 +123,8 @@ namespace APP_SIVENTU
             this.panel4.Controls.Add(this.btsalircom);
             this.panel4.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel4.Location = new System.Drawing.Point(0, 0);
-            this.panel4.Margin = new System.Windows.Forms.Padding(4);
             this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(840, 49);
+            this.panel4.Size = new System.Drawing.Size(630, 40);
             this.panel4.TabIndex = 85;
             this.panel4.MouseDown += new System.Windows.Forms.MouseEventHandler(this.panel4_MouseDown);
             this.panel4.MouseMove += new System.Windows.Forms.MouseEventHandler(this.panel4_MouseMove);
@@ -135,8 +134,7 @@ namespace APP_SIVENTU
             // 
             this.botonderegreso2.Cursor = System.Windows.Forms.Cursors.Hand;
             this.botonderegreso2.Image = global::APP_SIVENTU.Properties.Resources.regreso;
-            this.botonderegreso2.Location = new System.Drawing.Point(21, 6);
-            this.botonderegreso2.Margin = new System.Windows.Forms.Padding(4);
+            this.botonderegreso2.Location = new System.Drawing.Point(16, 5);
             this.botonderegreso2.Name = "botonderegreso2";
             this.botonderegreso2.Size = new System.Drawing.Size(0, 0);
             this.botonderegreso2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -147,10 +145,9 @@ namespace APP_SIVENTU
             // 
             this.btminicom.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btminicom.Image = ((System.Drawing.Image)(resources.GetObject("btminicom.Image")));
-            this.btminicom.Location = new System.Drawing.Point(727, 6);
-            this.btminicom.Margin = new System.Windows.Forms.Padding(4);
+            this.btminicom.Location = new System.Drawing.Point(545, 5);
             this.btminicom.Name = "btminicom";
-            this.btminicom.Size = new System.Drawing.Size(40, 37);
+            this.btminicom.Size = new System.Drawing.Size(30, 30);
             this.btminicom.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.btminicom.TabIndex = 1;
             this.btminicom.TabStop = false;
@@ -160,10 +157,9 @@ namespace APP_SIVENTU
             // 
             this.btsalircom.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btsalircom.Image = ((System.Drawing.Image)(resources.GetObject("btsalircom.Image")));
-            this.btsalircom.Location = new System.Drawing.Point(787, 6);
-            this.btsalircom.Margin = new System.Windows.Forms.Padding(4);
+            this.btsalircom.Location = new System.Drawing.Point(590, 5);
             this.btsalircom.Name = "btsalircom";
-            this.btsalircom.Size = new System.Drawing.Size(40, 37);
+            this.btsalircom.Size = new System.Drawing.Size(30, 30);
             this.btsalircom.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.btsalircom.TabIndex = 0;
             this.btsalircom.TabStop = false;
@@ -190,14 +186,14 @@ namespace APP_SIVENTU
             this.btlimpiar_com.IconVisible = true;
             this.btlimpiar_com.IconZoom = 60D;
             this.btlimpiar_com.IsTab = false;
-            this.btlimpiar_com.Location = new System.Drawing.Point(341, 601);
-            this.btlimpiar_com.Margin = new System.Windows.Forms.Padding(5);
+            this.btlimpiar_com.Location = new System.Drawing.Point(256, 488);
+            this.btlimpiar_com.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btlimpiar_com.Name = "btlimpiar_com";
             this.btlimpiar_com.Normalcolor = System.Drawing.Color.FromArgb(((int)(((byte)(87)))), ((int)(((byte)(57)))), ((int)(((byte)(74)))));
             this.btlimpiar_com.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(163)))), ((int)(((byte)(124)))), ((int)(((byte)(130)))));
             this.btlimpiar_com.OnHoverTextColor = System.Drawing.Color.White;
             this.btlimpiar_com.selected = false;
-            this.btlimpiar_com.Size = new System.Drawing.Size(191, 68);
+            this.btlimpiar_com.Size = new System.Drawing.Size(143, 55);
             this.btlimpiar_com.TabIndex = 88;
             this.btlimpiar_com.Text = "ELIMINAR";
             this.btlimpiar_com.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -209,27 +205,26 @@ namespace APP_SIVENTU
             // 
             this.pictureBoxcompras.BackColor = System.Drawing.Color.Transparent;
             this.pictureBoxcompras.Image = ((System.Drawing.Image)(resources.GetObject("pictureBoxcompras.Image")));
-            this.pictureBoxcompras.Location = new System.Drawing.Point(9, 90);
-            this.pictureBoxcompras.Margin = new System.Windows.Forms.Padding(4);
+            this.pictureBoxcompras.Location = new System.Drawing.Point(7, 73);
             this.pictureBoxcompras.Name = "pictureBoxcompras";
-            this.pictureBoxcompras.Size = new System.Drawing.Size(191, 137);
+            this.pictureBoxcompras.Size = new System.Drawing.Size(143, 111);
             this.pictureBoxcompras.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBoxcompras.TabIndex = 87;
             this.pictureBoxcompras.TabStop = false;
             // 
             // datagrid_compras
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(135)))), ((int)(((byte)(92)))), ((int)(((byte)(116)))));
-            this.ClientSize = new System.Drawing.Size(840, 683);
+            this.ClientSize = new System.Drawing.Size(630, 555);
             this.Controls.Add(this.bunifuCustomLabelcompras);
             this.Controls.Add(this.btlimpiar_com);
             this.Controls.Add(this.pictureBoxcompras);
             this.Controls.Add(this.dataGridViewCompras);
             this.Controls.Add(this.panel4);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "datagrid_compras";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "datagrid_compras";

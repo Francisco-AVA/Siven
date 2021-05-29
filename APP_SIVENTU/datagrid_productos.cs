@@ -53,17 +53,26 @@ namespace APP_SIVENTU
 
         private void btlimpiar_prod_Click(object sender, EventArgs e)
         {
-            bool resp = ventura.removeGeneral("productos", "Id", Convert.ToInt32(idS));
-
-            if (resp)
+            if (MessageBox.Show("¿Estas seguro de eliminar?", "ELIMINAR", MessageBoxButtons.YesNo) == DialogResult.Yes)
             {
-                MessageBox.Show("Se eliminó con exito");
-                getproductos();
+                bool resp = ventura.removeGeneral("productos", "Id", Convert.ToInt32(idS));
+
+                if (resp)
+                {
+                    MessageBox.Show("Se eliminó con exito");
+                    getproductos();
+                }
+                else
+                {
+                  
+                }
             }
             else
+
             {
-                MessageBox.Show("no funcionó");
+                MessageBox.Show("No se pudo cerrar");
             }
+           
         }
 
         private void panel4_MouseMove(object sender, MouseEventArgs e)

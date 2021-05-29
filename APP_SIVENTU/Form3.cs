@@ -35,6 +35,7 @@ namespace APP_SIVENTU
                 txtNombre2.Text = "";
                 txtContra2.Text = "";
                 txtConfirmacion.Text = "";
+                comboBox1.Text = "";
                 txtCorreo.Text = "";
                 txtTelefono.Text = "";
             }

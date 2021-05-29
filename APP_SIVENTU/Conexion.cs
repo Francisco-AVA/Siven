@@ -9,10 +9,10 @@ namespace APP_SIVENTU
 
         private static SqlConnection conexion()
         {               //FRAN--
-              // SqlConnection conn = new SqlConnection("Data Source=(LocalDB)\\MSSQLLocalDB;AttachDbFilename=C:\\Users\\nelso\\Desktop\\APP_SIVENTU\\APP_SIVENTU\\databaseSIVENTU.mdf;Integrated Security=True");
+               SqlConnection conn = new SqlConnection("Data Source=(LocalDB)\\MSSQLLocalDB;AttachDbFilename=C:\\Users\\nelso\\Desktop\\APP_SIVENTU\\APP_SIVENTU\\databaseSIVENTU.mdf;Integrated Security=True");
            
             //KATIA
-            SqlConnection conn = new SqlConnection("Data Source=(LocalDB)\\MSSQLLocalDB;AttachDbFilename=C:\\APP_SIVENTU\\APP_SIVENTU\\databaseSIVENTU.mdf;Integrated Security=True");
+            //SqlConnection conn = new SqlConnection("Data Source=(LocalDB)\\MSSQLLocalDB;AttachDbFilename=C:\\APP_SIVENTU\\APP_SIVENTU\\databaseSIVENTU.mdf;Integrated Security=True");
 
             return conn;   
         }

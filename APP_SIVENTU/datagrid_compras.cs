@@ -59,17 +59,30 @@ namespace APP_SIVENTU
 
         private void btlimpiar_com_Click(object sender, EventArgs e)
         {
-            bool resp = ventura.removeGeneral("compras", "Id", Convert.ToInt32(idS));
-
-            if (resp)
+            if (MessageBox.Show("¿Estas seguro de ELIMINAR?", "ELIMINAR", MessageBoxButtons.YesNo) == DialogResult.Yes)
             {
-                MessageBox.Show("Se eliminó con exito");
-                getcompras();
+                bool resp = ventura.removeGeneral("compras", "Id", Convert.ToInt32(idS));
+
+                if (resp)
+                {
+                    MessageBox.Show("Se eliminó con exito");
+                    getcompras();
+                }
+                else
+                {
+                }
             }
             else
+
             {
-                MessageBox.Show("no funcionó");
+                MessageBox.Show("No se pudo cerrar");
             }
+            
+        }
+
+        private void dataGridViewCompras_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
         }
 
         private void panel4_MouseMove(object sender, MouseEventArgs e)

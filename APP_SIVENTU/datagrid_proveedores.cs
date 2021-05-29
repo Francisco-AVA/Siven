@@ -67,19 +67,31 @@ namespace APP_SIVENTU
 
         private void btlimpiar_prov_Click(object sender, EventArgs e)
         {
-            bool resp = ventura.removeGeneral("proveedores", "Id", Convert.ToInt32(idS));
 
-            if (resp)
+            if (MessageBox.Show("¿Estas seguro de eliminar?", "ELIMINAR", MessageBoxButtons.YesNo) == DialogResult.Yes)
             {
-                MessageBox.Show("Se eliminó con exito");
-                getproveedores();
-            }
-            else
-            {
-                MessageBox.Show("No se pudo eliminar");
-            }
+                bool resp = ventura.removeGeneral("proveedores", "Id", Convert.ToInt32(idS));
 
+                if (resp)
+                {
+                    MessageBox.Show("Se eliminó con exito");
+                    getproveedores();
+                }
+                else
+                {
+                    MessageBox.Show("No se pudo eliminar");
+                }
+            
         }
+            else
+
+            {
+                
+            }
+        }
+       
+
+        
 
     }
 }

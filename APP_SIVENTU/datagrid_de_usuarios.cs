@@ -63,6 +63,11 @@ namespace APP_SIVENTU
             idS = dataGridViewEmpleados.Rows[e.RowIndex].Cells[0].Value.ToString();
         }
 
+        private void dataGridViewEmpleados_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
+
         private void panel4_MouseUp(object sender, MouseEventArgs e)
         {
             m = 0;
@@ -71,17 +76,24 @@ namespace APP_SIVENTU
 
         private void btlimpiar_regis_Click(object sender, EventArgs e)
         {
-            bool resp = ventura.removeGeneral("usuarios", "Id", Convert.ToInt32(idS));
-
-            if (resp)
+            if (MessageBox.Show("¿Estas seguro de ELIMINAR?", "ELIMINAR", MessageBoxButtons.YesNo) == DialogResult.Yes)
             {
-                MessageBox.Show("Se eliminó con exito");
-                getusuarios();
+                bool resp = ventura.removeGeneral("usuarios", "Id", Convert.ToInt32(idS));
+
+                if (resp)
+                {
+                    MessageBox.Show("Se eliminó con exito");
+                    getusuarios();
+                }
+                else
+                {
+                }
             }
             else
+
             {
-                MessageBox.Show("no funcionó");
             }
+            
 
     }
 }

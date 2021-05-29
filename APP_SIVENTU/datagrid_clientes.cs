@@ -34,16 +34,26 @@ namespace APP_SIVENTU
 
         private void btlimpiar_clientesgri_Click(object sender, EventArgs e)
         {
-            bool resp = ventura.removeGeneral("clientes", "Id", Convert.ToInt32(idS));
+            if (MessageBox.Show("¿Estas seguro de ELIMINAR?", "ELIMINAR", MessageBoxButtons.YesNo) == DialogResult.Yes)
+            {
+                bool resp = ventura.removeGeneral("clientes", "Id", Convert.ToInt32(idS));
 
-            if (resp) {
-                MessageBox.Show("Se eliminó con exito");
-                getclientes();
+                if (resp)
+                {
+                    MessageBox.Show("Se eliminó con exito");
+                    getclientes();
+                }
+                else
+                {
+                  
+                }
             }
             else
+
             {
-                MessageBox.Show("no funcionó");
+              
             }
+           
         }
 
         private void getclientes()
@@ -77,6 +87,11 @@ namespace APP_SIVENTU
         private void dataGridViewClientes_CellClick(object sender, DataGridViewCellEventArgs e)
         {
             idS = dataGridViewClientes.Rows[e.RowIndex].Cells[0].Value.ToString();
+        }
+
+        private void bunifuCustomLabel1_Click(object sender, EventArgs e)
+        {
+
         }
 
         private void panel4_MouseMove(object sender, MouseEventArgs e)
