@@ -58,9 +58,8 @@ namespace APP_SIVENTU
             this.panel4.Controls.Add(this.btsalir3);
             this.panel4.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel4.Location = new System.Drawing.Point(0, 0);
-            this.panel4.Margin = new System.Windows.Forms.Padding(4);
             this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(840, 49);
+            this.panel4.Size = new System.Drawing.Size(630, 40);
             this.panel4.TabIndex = 4;
             this.panel4.MouseDown += new System.Windows.Forms.MouseEventHandler(this.panel4_MouseDown);
             this.panel4.MouseMove += new System.Windows.Forms.MouseEventHandler(this.panel4_MouseMove);
@@ -82,10 +81,9 @@ namespace APP_SIVENTU
             // 
             this.btmini3.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btmini3.Image = ((System.Drawing.Image)(resources.GetObject("btmini3.Image")));
-            this.btmini3.Location = new System.Drawing.Point(727, 6);
-            this.btmini3.Margin = new System.Windows.Forms.Padding(4);
+            this.btmini3.Location = new System.Drawing.Point(545, 5);
             this.btmini3.Name = "btmini3";
-            this.btmini3.Size = new System.Drawing.Size(40, 37);
+            this.btmini3.Size = new System.Drawing.Size(30, 30);
             this.btmini3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.btmini3.TabIndex = 1;
             this.btmini3.TabStop = false;
@@ -95,10 +93,9 @@ namespace APP_SIVENTU
             // 
             this.btsalir3.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btsalir3.Image = ((System.Drawing.Image)(resources.GetObject("btsalir3.Image")));
-            this.btsalir3.Location = new System.Drawing.Point(787, 6);
-            this.btsalir3.Margin = new System.Windows.Forms.Padding(4);
+            this.btsalir3.Location = new System.Drawing.Point(590, 5);
             this.btsalir3.Name = "btsalir3";
-            this.btsalir3.Size = new System.Drawing.Size(40, 37);
+            this.btsalir3.Size = new System.Drawing.Size(30, 30);
             this.btsalir3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.btsalir3.TabIndex = 0;
             this.btsalir3.TabStop = false;
@@ -164,7 +161,7 @@ namespace APP_SIVENTU
             this.Label2.Location = new System.Drawing.Point(189, 53);
             this.Label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.Label2.Name = "Label2";
-            this.Label2.Size = new System.Drawing.Size(522, 42);
+            this.Label2.Size = new System.Drawing.Size(402, 32);
             this.Label2.TabIndex = 22;
             this.Label2.Text = "REGISTRO DE EMPLEADOS\r\n";
             // 
@@ -172,10 +169,9 @@ namespace APP_SIVENTU
             // 
             this.pictureBox2.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
-            this.pictureBox2.Location = new System.Drawing.Point(4, 50);
-            this.pictureBox2.Margin = new System.Windows.Forms.Padding(4);
+            this.pictureBox2.Location = new System.Drawing.Point(3, 41);
             this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(191, 137);
+            this.pictureBox2.Size = new System.Drawing.Size(143, 111);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox2.TabIndex = 26;
             this.pictureBox2.TabStop = false;
@@ -201,14 +197,14 @@ namespace APP_SIVENTU
             this.btlimpiar_regis.IconVisible = true;
             this.btlimpiar_regis.IconZoom = 60D;
             this.btlimpiar_regis.IsTab = false;
-            this.btlimpiar_regis.Location = new System.Drawing.Point(313, 580);
-            this.btlimpiar_regis.Margin = new System.Windows.Forms.Padding(5);
+            this.btlimpiar_regis.Location = new System.Drawing.Point(235, 471);
+            this.btlimpiar_regis.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btlimpiar_regis.Name = "btlimpiar_regis";
             this.btlimpiar_regis.Normalcolor = System.Drawing.Color.FromArgb(((int)(((byte)(87)))), ((int)(((byte)(57)))), ((int)(((byte)(74)))));
             this.btlimpiar_regis.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(163)))), ((int)(((byte)(124)))), ((int)(((byte)(130)))));
             this.btlimpiar_regis.OnHoverTextColor = System.Drawing.Color.White;
             this.btlimpiar_regis.selected = false;
-            this.btlimpiar_regis.Size = new System.Drawing.Size(191, 68);
+            this.btlimpiar_regis.Size = new System.Drawing.Size(143, 55);
             this.btlimpiar_regis.TabIndex = 68;
             this.btlimpiar_regis.Text = "ELIMINAR";
             this.btlimpiar_regis.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -218,10 +214,10 @@ namespace APP_SIVENTU
             // 
             // datagridEmpleados
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(135)))), ((int)(((byte)(92)))), ((int)(((byte)(116)))));
-            this.ClientSize = new System.Drawing.Size(840, 683);
+            this.ClientSize = new System.Drawing.Size(630, 555);
             this.Controls.Add(this.btlimpiar_regis);
             this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.Label2);

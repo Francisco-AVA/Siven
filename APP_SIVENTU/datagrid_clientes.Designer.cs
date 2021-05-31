@@ -230,6 +230,7 @@ namespace APP_SIVENTU
             this.bunifuCustomLabel1.Size = new System.Drawing.Size(472, 84);
             this.bunifuCustomLabel1.TabIndex = 74;
             this.bunifuCustomLabel1.Text = "REGISTRO DE CLIENTES\r\n\r\n";
+            this.bunifuCustomLabel1.Click += new System.EventHandler(this.bunifuCustomLabel1_Click);
             // 
             // datagrid_clientes
             // 

@@ -88,6 +88,11 @@ namespace APP_SIVENTU
             idS = dataGridViewClientes.Rows[e.RowIndex].Cells[0].Value.ToString();
         }
 
+        private void bunifuCustomLabel1_Click(object sender, EventArgs e)
+        {
+
+        }
+
         private void panel4_MouseMove(object sender, MouseEventArgs e)
         {
             if(m ==1)

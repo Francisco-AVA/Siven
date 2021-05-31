@@ -43,6 +43,9 @@ namespace APP_SIVENTU
             ((System.ComponentModel.ISupportInitialize)(this.btsalir3)).BeginInit();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
+            this.panel3.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.btmini3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btsalir3)).BeginInit();
             this.SuspendLayout();
             // 
             // panel3
@@ -140,6 +143,42 @@ namespace APP_SIVENTU
             this.label1.TabIndex = 14;
             this.label1.Text = resources.GetString("label1.Text");
             // 
+            // panel3
+            // 
+            this.panel3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(87)))), ((int)(((byte)(57)))), ((int)(((byte)(74)))));
+            this.panel3.Controls.Add(this.btmini3);
+            this.panel3.Controls.Add(this.btsalir3);
+            this.panel3.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panel3.Location = new System.Drawing.Point(0, 0);
+            this.panel3.Margin = new System.Windows.Forms.Padding(4);
+            this.panel3.Name = "panel3";
+            this.panel3.Size = new System.Drawing.Size(840, 58);
+            this.panel3.TabIndex = 8;
+            // 
+            // btmini3
+            // 
+            this.btmini3.Image = ((System.Drawing.Image)(resources.GetObject("btmini3.Image")));
+            this.btmini3.Location = new System.Drawing.Point(727, 13);
+            this.btmini3.Margin = new System.Windows.Forms.Padding(4);
+            this.btmini3.Name = "btmini3";
+            this.btmini3.Size = new System.Drawing.Size(40, 37);
+            this.btmini3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.btmini3.TabIndex = 10;
+            this.btmini3.TabStop = false;
+            this.btmini3.Click += new System.EventHandler(this.btmini3_Click);
+            // 
+            // btsalir3
+            // 
+            this.btsalir3.Image = ((System.Drawing.Image)(resources.GetObject("btsalir3.Image")));
+            this.btsalir3.Location = new System.Drawing.Point(787, 13);
+            this.btsalir3.Margin = new System.Windows.Forms.Padding(4);
+            this.btsalir3.Name = "btsalir3";
+            this.btsalir3.Size = new System.Drawing.Size(40, 37);
+            this.btsalir3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.btsalir3.TabIndex = 9;
+            this.btsalir3.TabStop = false;
+            this.btsalir3.Click += new System.EventHandler(this.btsalir3_Click);
+            // 
             // Ayuda1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -174,5 +213,8 @@ namespace APP_SIVENTU
         private System.Windows.Forms.PictureBox pictureBox2;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Panel panel3;
+        private System.Windows.Forms.PictureBox btmini3;
+        private System.Windows.Forms.PictureBox btsalir3;
     }
 }

@@ -79,7 +79,7 @@ namespace APP_SIVENTU
             this.Txtprecioproduc.Name = "Txtprecioproduc";
             this.Txtprecioproduc.Size = new System.Drawing.Size(216, 20);
             this.Txtprecioproduc.TabIndex = 70;
-            this.Txtprecioproduc.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.Txtprecioproduc_KeyPress);
+                 this.Txtprecioproduc.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.Txtprecioproduc_KeyPress);
             // 
             // labelfechaproduc
             // 

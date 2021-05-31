@@ -132,9 +132,9 @@ namespace APP_SIVENTU
             validacion.SoloLetras(e);
         }
 
-        private void FormProveedores_Load(object sender, EventArgs e)
+        private void txtproductopro_KeyPress(object sender, KeyPressEventArgs e)
         {
-
+            validacion.SoloLetras(e);
         }
     }
 }
