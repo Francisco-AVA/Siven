@@ -34,9 +34,8 @@ namespace APP_SIVENTU
             bool result = ventuprove.Registrador(codigo, nombre, direccion, telefono, correo, rubro, product, fecha);
             if (result)
             {
-                MessageBox.Show("prveedor registrado");
+                MessageBox.Show("proveedor registrado");
 
-                txtnombrepro.Text = "";
                 txtnombrepro.Text = "";
                 txtdireccionpro.Text = "";
                 Txtpaispro.Text = "";
@@ -45,9 +44,6 @@ namespace APP_SIVENTU
                 Txtrubropro.Text = "";
                 txtproductopro.Text = "";
                 txtfechapro.Text = "";
-
-
-
             }
             else
             {
@@ -77,10 +73,7 @@ namespace APP_SIVENTU
             validacion.SoloLetras(e);
         }
 
-        private void Txtproductopro_KeyPress(object sender, KeyPressEventArgs e)
-        {
-            validacion.SoloLetras(e);
-        }
+     
 
         //----------------------------------------------------------
         public static bool Email_Valido(String email) // Método para validar el Email ingresado
@@ -132,6 +125,11 @@ namespace APP_SIVENTU
                 btguardar_prove.Visible = true;
                 btlimpiar_prove.Enabled = true;
             }
+        }
+
+        private void txtproductopro_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            validacion.SoloLetras(e);
         }
 
         private void FormProveedores_Load(object sender, EventArgs e)

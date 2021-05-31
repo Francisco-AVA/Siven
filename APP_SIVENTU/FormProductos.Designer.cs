@@ -50,38 +50,34 @@ namespace APP_SIVENTU
             // pictureBox1
             // 
             this.pictureBox1.Image = global::APP_SIVENTU.Properties.Resources.logo_removebg_preview1;
-            this.pictureBox1.Location = new System.Drawing.Point(13, 14);
-            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4);
+            this.pictureBox1.Location = new System.Drawing.Point(10, 11);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(193, 117);
+            this.pictureBox1.Size = new System.Drawing.Size(145, 95);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox1.TabIndex = 77;
             this.pictureBox1.TabStop = false;
             // 
             // txtfechapro
             // 
-            this.txtfechapro.Location = new System.Drawing.Point(373, 443);
-            this.txtfechapro.Margin = new System.Windows.Forms.Padding(4);
+            this.txtfechapro.Location = new System.Drawing.Point(280, 360);
             this.txtfechapro.Mask = "00/00/0000";
             this.txtfechapro.Name = "txtfechapro";
-            this.txtfechapro.Size = new System.Drawing.Size(132, 22);
+            this.txtfechapro.Size = new System.Drawing.Size(100, 20);
             this.txtfechapro.TabIndex = 74;
             // 
             // txtexistenciasproduc
             // 
-            this.txtexistenciasproduc.Location = new System.Drawing.Point(373, 366);
-            this.txtexistenciasproduc.Margin = new System.Windows.Forms.Padding(4);
+            this.txtexistenciasproduc.Location = new System.Drawing.Point(280, 297);
             this.txtexistenciasproduc.Name = "txtexistenciasproduc";
-            this.txtexistenciasproduc.Size = new System.Drawing.Size(287, 22);
+            this.txtexistenciasproduc.Size = new System.Drawing.Size(216, 20);
             this.txtexistenciasproduc.TabIndex = 72;
             this.txtexistenciasproduc.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.Txtexistenciasproduc_KeyPress);
             // 
             // Txtprecioproduc
             // 
-            this.Txtprecioproduc.Location = new System.Drawing.Point(373, 286);
-            this.Txtprecioproduc.Margin = new System.Windows.Forms.Padding(4);
+            this.Txtprecioproduc.Location = new System.Drawing.Point(280, 232);
             this.Txtprecioproduc.Name = "Txtprecioproduc";
-            this.Txtprecioproduc.Size = new System.Drawing.Size(287, 22);
+            this.Txtprecioproduc.Size = new System.Drawing.Size(216, 20);
             this.Txtprecioproduc.TabIndex = 70;
             this.Txtprecioproduc.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.Txtprecioproduc_KeyPress);
             // 
@@ -89,10 +85,9 @@ namespace APP_SIVENTU
             // 
             this.labelfechaproduc.AutoSize = true;
             this.labelfechaproduc.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold);
-            this.labelfechaproduc.Location = new System.Drawing.Point(256, 444);
-            this.labelfechaproduc.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.labelfechaproduc.Location = new System.Drawing.Point(192, 361);
             this.labelfechaproduc.Name = "labelfechaproduc";
-            this.labelfechaproduc.Size = new System.Drawing.Size(84, 23);
+            this.labelfechaproduc.Size = new System.Drawing.Size(67, 19);
             this.labelfechaproduc.TabIndex = 69;
             this.labelfechaproduc.Text = "FECHA:";
             // 
@@ -100,10 +95,9 @@ namespace APP_SIVENTU
             // 
             this.Labelprecioproduc.AutoSize = true;
             this.Labelprecioproduc.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold);
-            this.Labelprecioproduc.Location = new System.Drawing.Point(181, 263);
-            this.Labelprecioproduc.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.Labelprecioproduc.Location = new System.Drawing.Point(136, 214);
             this.Labelprecioproduc.Name = "Labelprecioproduc";
-            this.Labelprecioproduc.Size = new System.Drawing.Size(115, 46);
+            this.Labelprecioproduc.Size = new System.Drawing.Size(93, 38);
             this.Labelprecioproduc.TabIndex = 66;
             this.Labelprecioproduc.Text = "PRECIO \r\nUNITARIO:";
             // 
@@ -111,10 +105,9 @@ namespace APP_SIVENTU
             // 
             this.Labelexistenciaspeoduc.AutoSize = true;
             this.Labelexistenciaspeoduc.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold);
-            this.Labelexistenciaspeoduc.Location = new System.Drawing.Point(195, 345);
-            this.Labelexistenciaspeoduc.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.Labelexistenciaspeoduc.Location = new System.Drawing.Point(146, 280);
             this.Labelexistenciaspeoduc.Name = "Labelexistenciaspeoduc";
-            this.Labelexistenciaspeoduc.Size = new System.Drawing.Size(140, 46);
+            this.Labelexistenciaspeoduc.Size = new System.Drawing.Size(114, 38);
             this.Labelexistenciaspeoduc.TabIndex = 63;
             this.Labelexistenciaspeoduc.Text = "EXISTENCIAS\r\nINICIALES:";
             // 
@@ -122,10 +115,9 @@ namespace APP_SIVENTU
             // 
             this.Labeldescripcionproduc.AutoSize = true;
             this.Labeldescripcionproduc.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold);
-            this.Labeldescripcionproduc.Location = new System.Drawing.Point(181, 225);
-            this.Labeldescripcionproduc.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.Labeldescripcionproduc.Location = new System.Drawing.Point(136, 183);
             this.Labeldescripcionproduc.Name = "Labeldescripcionproduc";
-            this.Labeldescripcionproduc.Size = new System.Drawing.Size(153, 23);
+            this.Labeldescripcionproduc.Size = new System.Drawing.Size(124, 19);
             this.Labeldescripcionproduc.TabIndex = 62;
             this.Labeldescripcionproduc.Text = "DESCRIPCION:";
             // 
@@ -133,28 +125,25 @@ namespace APP_SIVENTU
             // 
             this.labelnombreproduc.AutoSize = true;
             this.labelnombreproduc.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelnombreproduc.Location = new System.Drawing.Point(184, 149);
-            this.labelnombreproduc.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.labelnombreproduc.Location = new System.Drawing.Point(138, 121);
             this.labelnombreproduc.Name = "labelnombreproduc";
-            this.labelnombreproduc.Size = new System.Drawing.Size(143, 46);
+            this.labelnombreproduc.Size = new System.Drawing.Size(113, 38);
             this.labelnombreproduc.TabIndex = 60;
             this.labelnombreproduc.Text = "CODÍGO DEL \r\nPRODUCTO:";
             // 
             // txtdireccionproduc
             // 
-            this.txtdireccionproduc.Location = new System.Drawing.Point(373, 224);
-            this.txtdireccionproduc.Margin = new System.Windows.Forms.Padding(4);
+            this.txtdireccionproduc.Location = new System.Drawing.Point(280, 182);
             this.txtdireccionproduc.Name = "txtdireccionproduc";
-            this.txtdireccionproduc.Size = new System.Drawing.Size(287, 22);
+            this.txtdireccionproduc.Size = new System.Drawing.Size(216, 20);
             this.txtdireccionproduc.TabIndex = 58;
             this.txtdireccionproduc.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.Txtdescripcionproduc_KeyPress);
             // 
             // txtcodigoproduc
             // 
-            this.txtcodigoproduc.Location = new System.Drawing.Point(373, 171);
-            this.txtcodigoproduc.Margin = new System.Windows.Forms.Padding(4);
+            this.txtcodigoproduc.Location = new System.Drawing.Point(280, 139);
             this.txtcodigoproduc.Name = "txtcodigoproduc";
-            this.txtcodigoproduc.Size = new System.Drawing.Size(287, 22);
+            this.txtcodigoproduc.Size = new System.Drawing.Size(216, 20);
             this.txtcodigoproduc.TabIndex = 57;
             this.txtcodigoproduc.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.Txtnombreproduc_KeyPress);
             // 
@@ -164,10 +153,9 @@ namespace APP_SIVENTU
             this.labeltituloproveedores.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(87)))), ((int)(((byte)(57)))), ((int)(((byte)(74)))));
             this.labeltituloproveedores.Font = new System.Drawing.Font("Times New Roman", 24F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labeltituloproveedores.ForeColor = System.Drawing.Color.White;
-            this.labeltituloproveedores.Location = new System.Drawing.Point(337, -1);
-            this.labeltituloproveedores.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.labeltituloproveedores.Location = new System.Drawing.Point(253, -1);
             this.labeltituloproveedores.Name = "labeltituloproveedores";
-            this.labeltituloproveedores.Size = new System.Drawing.Size(259, 46);
+            this.labeltituloproveedores.Size = new System.Drawing.Size(206, 36);
             this.labeltituloproveedores.TabIndex = 52;
             this.labeltituloproveedores.Text = "PRODUCTOS";
             // 
@@ -192,14 +180,14 @@ namespace APP_SIVENTU
             this.btlimpiar_produc.IconVisible = true;
             this.btlimpiar_produc.IconZoom = 70D;
             this.btlimpiar_produc.IsTab = false;
-            this.btlimpiar_produc.Location = new System.Drawing.Point(577, 576);
-            this.btlimpiar_produc.Margin = new System.Windows.Forms.Padding(5);
+            this.btlimpiar_produc.Location = new System.Drawing.Point(433, 468);
+            this.btlimpiar_produc.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btlimpiar_produc.Name = "btlimpiar_produc";
             this.btlimpiar_produc.Normalcolor = System.Drawing.Color.FromArgb(((int)(((byte)(87)))), ((int)(((byte)(57)))), ((int)(((byte)(74)))));
             this.btlimpiar_produc.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(163)))), ((int)(((byte)(124)))), ((int)(((byte)(130)))));
             this.btlimpiar_produc.OnHoverTextColor = System.Drawing.Color.White;
             this.btlimpiar_produc.selected = false;
-            this.btlimpiar_produc.Size = new System.Drawing.Size(204, 70);
+            this.btlimpiar_produc.Size = new System.Drawing.Size(153, 57);
             this.btlimpiar_produc.TabIndex = 81;
             this.btlimpiar_produc.Text = "ELIMINAR";
             this.btlimpiar_produc.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -228,14 +216,14 @@ namespace APP_SIVENTU
             this.btguardar_produc.IconVisible = true;
             this.btguardar_produc.IconZoom = 70D;
             this.btguardar_produc.IsTab = false;
-            this.btguardar_produc.Location = new System.Drawing.Point(321, 576);
-            this.btguardar_produc.Margin = new System.Windows.Forms.Padding(5);
+            this.btguardar_produc.Location = new System.Drawing.Point(241, 468);
+            this.btguardar_produc.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btguardar_produc.Name = "btguardar_produc";
             this.btguardar_produc.Normalcolor = System.Drawing.Color.FromArgb(((int)(((byte)(87)))), ((int)(((byte)(57)))), ((int)(((byte)(74)))));
             this.btguardar_produc.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(163)))), ((int)(((byte)(124)))), ((int)(((byte)(130)))));
             this.btguardar_produc.OnHoverTextColor = System.Drawing.Color.White;
             this.btguardar_produc.selected = false;
-            this.btguardar_produc.Size = new System.Drawing.Size(205, 70);
+            this.btguardar_produc.Size = new System.Drawing.Size(154, 57);
             this.btguardar_produc.TabIndex = 80;
             this.btguardar_produc.Text = "GUARDAR";
             this.btguardar_produc.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -264,14 +252,14 @@ namespace APP_SIVENTU
             this.btmodificar_produc.IconVisible = true;
             this.btmodificar_produc.IconZoom = 70D;
             this.btmodificar_produc.IsTab = false;
-            this.btmodificar_produc.Location = new System.Drawing.Point(60, 576);
-            this.btmodificar_produc.Margin = new System.Windows.Forms.Padding(5);
+            this.btmodificar_produc.Location = new System.Drawing.Point(45, 468);
+            this.btmodificar_produc.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btmodificar_produc.Name = "btmodificar_produc";
             this.btmodificar_produc.Normalcolor = System.Drawing.Color.FromArgb(((int)(((byte)(87)))), ((int)(((byte)(57)))), ((int)(((byte)(74)))));
             this.btmodificar_produc.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(163)))), ((int)(((byte)(124)))), ((int)(((byte)(130)))));
             this.btmodificar_produc.OnHoverTextColor = System.Drawing.Color.White;
             this.btmodificar_produc.selected = false;
-            this.btmodificar_produc.Size = new System.Drawing.Size(209, 70);
+            this.btmodificar_produc.Size = new System.Drawing.Size(157, 57);
             this.btmodificar_produc.TabIndex = 79;
             this.btmodificar_produc.Text = "MODIFICAR";
             this.btmodificar_produc.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -280,10 +268,10 @@ namespace APP_SIVENTU
             // 
             // FormProductos
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(209)))), ((int)(((byte)(167)))), ((int)(((byte)(185)))));
-            this.ClientSize = new System.Drawing.Size(840, 683);
+            this.ClientSize = new System.Drawing.Size(630, 555);
             this.Controls.Add(this.btlimpiar_produc);
             this.Controls.Add(this.btguardar_produc);
             this.Controls.Add(this.btmodificar_produc);
@@ -300,9 +288,9 @@ namespace APP_SIVENTU
             this.Controls.Add(this.txtcodigoproduc);
             this.Controls.Add(this.labeltituloproveedores);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "FormProductos";
             this.Text = "FormProductos";
+            this.Load += new System.EventHandler(this.FormProductos_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

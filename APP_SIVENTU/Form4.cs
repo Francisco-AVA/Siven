@@ -31,7 +31,6 @@ namespace APP_SIVENTU
             else
 
             {
-                MessageBox.Show("No se pudo cerrar");
             }
         }
 
@@ -93,7 +92,6 @@ namespace APP_SIVENTU
             else
 
             {
-                MessageBox.Show("No se pudo regresar");
             }
         }
     }

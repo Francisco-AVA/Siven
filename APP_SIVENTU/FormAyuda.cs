@@ -1,22 +1,17 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace APP_SIVENTU
 {
     public partial class FormAyuda : Form
     {
+        ventura ventuconfig = new ventura();
         public FormAyuda()
         {
             InitializeComponent();
         }
         //LLAMADO DE FORMULARIOS
+        /*
         private void changeForms(object fh)
         {
             if (panel9info.Controls.Count > 0)
@@ -31,36 +26,59 @@ namespace APP_SIVENTU
             panel9info.Tag = fromhijonuevo;//se le indica que esta entrando el nuevo
             fromhijonuevo.Show();
         }
-
-        
-        private void label1_Click(object sender, EventArgs e)
+        */
+     
+        // LLAMADO DE BOTONES A FORM
+        private void bunifuFlatButton1_Click(object sender, EventArgs e)
         {
-            changeForms(new Ayuda1());
+            Ayuda1 ayu = new Ayuda1();
+            ayu.Show();
         }
 
-        private void label2_Click(object sender, EventArgs e)
+        private void bunifuFlatButton3_Click(object sender, EventArgs e)
         {
-            changeForms(new Ayuda2());
+            Ayuda2 ayu = new Ayuda2();
+            ayu.Show();
         }
 
-        private void label3_Click(object sender, EventArgs e)
+        private void bunifuFlatButton4_Click(object sender, EventArgs e)
         {
-            changeForms(new Ayuda3());
+            Ayuda5 ayu = new Ayuda5();
+            ayu.Show();
         }
 
-        private void label4_Click(object sender, EventArgs e)
+        private void bunifuFlatButton6_Click(object sender, EventArgs e)
         {
-            changeForms(new Ayuda4());
+            Ayuda4 ayu = new Ayuda4();
+            ayu.Show();
         }
 
-        private void label5_Click(object sender, EventArgs e)
+        private void bunifuFlatButton5_Click(object sender, EventArgs e)
         {
-            changeForms(new Ayuda5());
+            Ayuda3 ayu = new Ayuda3();
+            ayu.Show();
         }
 
-        private void label6_Click(object sender, EventArgs e)
+        private void bunifuFlatButton2_Click(object sender, EventArgs e)
         {
-            changeForms(new Ayuda6());
+            Ayuda6 ayu = new Ayuda6();
+            ayu.Show();
+        }
+
+        private void busqueda_OnTextChange(object sender, EventArgs e)
+        {
+            /*¿como crear una factura?
+             * ¿como agregar mas registros?
+            ¿como anular registros?
+            ¿como eliminar un producto de una factura?
+            ¿por que al ingresar datoos en los registros, los toma como invalidos?
+            ¿como puedo modificar datos erroneoss ingresados en los registros?*/
+
+        }
+
+        private void FormAyuda_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

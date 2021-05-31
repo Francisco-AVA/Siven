@@ -30,6 +30,10 @@ namespace APP_SIVENTU
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(datagrid_proveedores));
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
             this.bunifuCustomLabel1 = new Bunifu.Framework.UI.BunifuCustomLabel();
             this.btlimpiar_prov = new Bunifu.Framework.UI.BunifuFlatButton();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
@@ -80,7 +84,7 @@ namespace APP_SIVENTU
             this.btlimpiar_prov.IconVisible = true;
             this.btlimpiar_prov.IconZoom = 60D;
             this.btlimpiar_prov.IsTab = false;
-            this.btlimpiar_prov.Location = new System.Drawing.Point(318, 596);
+            this.btlimpiar_prov.Location = new System.Drawing.Point(317, 596);
             this.btlimpiar_prov.Margin = new System.Windows.Forms.Padding(5);
             this.btlimpiar_prov.Name = "btlimpiar_prov";
             this.btlimpiar_prov.Normalcolor = System.Drawing.Color.FromArgb(((int)(((byte)(87)))), ((int)(((byte)(57)))), ((int)(((byte)(74)))));
@@ -109,15 +113,53 @@ namespace APP_SIVENTU
             // 
             // dataGridViewProveedores
             // 
+            this.dataGridViewProveedores.AllowUserToAddRows = false;
+            this.dataGridViewProveedores.AllowUserToResizeColumns = false;
             this.dataGridViewProveedores.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(135)))), ((int)(((byte)(92)))), ((int)(((byte)(116)))));
             this.dataGridViewProveedores.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.dataGridViewProveedores.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridViewProveedores.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.Single;
+            dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(110)))), ((int)(((byte)(48)))), ((int)(((byte)(75)))));
+            dataGridViewCellStyle1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle1.ForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle1.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(87)))), ((int)(((byte)(57)))), ((int)(((byte)(74)))));
+            dataGridViewCellStyle1.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle1.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dataGridViewProveedores.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle1;
+            this.dataGridViewProveedores.ColumnHeadersHeight = 30;
+            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(209)))), ((int)(((byte)(167)))), ((int)(((byte)(185)))));
+            dataGridViewCellStyle2.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle2.ForeColor = System.Drawing.SystemColors.ControlText;
+            dataGridViewCellStyle2.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(135)))), ((int)(((byte)(92)))), ((int)(((byte)(116)))));
+            dataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.dataGridViewProveedores.DefaultCellStyle = dataGridViewCellStyle2;
+            this.dataGridViewProveedores.EnableHeadersVisualStyles = false;
+            this.dataGridViewProveedores.GridColor = System.Drawing.SystemColors.Menu;
             this.dataGridViewProveedores.Location = new System.Drawing.Point(60, 210);
+            this.dataGridViewProveedores.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.dataGridViewProveedores.Name = "dataGridViewProveedores";
+            dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(110)))), ((int)(((byte)(48)))), ((int)(((byte)(75)))));
+            dataGridViewCellStyle3.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle3.ForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle3.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(87)))), ((int)(((byte)(57)))), ((int)(((byte)(74)))));
+            dataGridViewCellStyle3.SelectionForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dataGridViewProveedores.RowHeadersDefaultCellStyle = dataGridViewCellStyle3;
             this.dataGridViewProveedores.RowHeadersWidth = 51;
+            dataGridViewCellStyle4.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(194)))), ((int)(((byte)(192)))));
+            dataGridViewCellStyle4.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle4.ForeColor = System.Drawing.Color.Black;
+            dataGridViewCellStyle4.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(163)))), ((int)(((byte)(124)))), ((int)(((byte)(130)))));
+            dataGridViewCellStyle4.SelectionForeColor = System.Drawing.Color.Black;
+            this.dataGridViewProveedores.RowsDefaultCellStyle = dataGridViewCellStyle4;
             this.dataGridViewProveedores.RowTemplate.Height = 24;
-            this.dataGridViewProveedores.Size = new System.Drawing.Size(738, 349);
+            this.dataGridViewProveedores.Size = new System.Drawing.Size(739, 350);
             this.dataGridViewProveedores.TabIndex = 76;
+            this.dataGridViewProveedores.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridViewProveedores_CellClick);
             // 
             // panel4
             // 
@@ -139,7 +181,7 @@ namespace APP_SIVENTU
             // 
             this.botonderegreso2.Cursor = System.Windows.Forms.Cursors.Hand;
             this.botonderegreso2.Image = global::APP_SIVENTU.Properties.Resources.regreso;
-            this.botonderegreso2.Location = new System.Drawing.Point(22, 6);
+            this.botonderegreso2.Location = new System.Drawing.Point(21, 6);
             this.botonderegreso2.Margin = new System.Windows.Forms.Padding(4);
             this.botonderegreso2.Name = "botonderegreso2";
             this.botonderegreso2.Size = new System.Drawing.Size(0, 0);
@@ -185,6 +227,7 @@ namespace APP_SIVENTU
             this.Controls.Add(this.dataGridViewProveedores);
             this.Controls.Add(this.panel4);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Name = "datagrid_proveedores";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "datagrid_proveedores";

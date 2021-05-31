@@ -64,6 +64,7 @@ namespace APP_SIVENTU
             this.btsalirrecu.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.btsalirrecu.TabIndex = 9;
             this.btsalirrecu.TabStop = false;
+            this.btsalirrecu.Click += new System.EventHandler(this.btsalirrecu_Click);
             // 
             // olvidocontra
             // 

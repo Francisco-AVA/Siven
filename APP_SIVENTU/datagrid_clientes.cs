@@ -34,15 +34,24 @@ namespace APP_SIVENTU
 
         private void btlimpiar_clientesgri_Click(object sender, EventArgs e)
         {
-            bool resp = ventura.removeGeneral("clientes", "Id", Convert.ToInt32(idS));
+            if (MessageBox.Show("¿Estas seguro de eliminar?", "ELIMINAR", MessageBoxButtons.YesNo) == DialogResult.Yes)
+            {
+                bool resp = ventura.removeGeneral("clientes", "Id", Convert.ToInt32(idS));
 
-            if (resp) {
-                MessageBox.Show("Se eliminó con exito");
-                getclientes();
+                if (resp)
+                {
+                    MessageBox.Show("Se eliminó con exito");
+                    getclientes();
+                }
+                else
+                {
+                    MessageBox.Show("no funcionó");
+                }
             }
             else
+
             {
-                MessageBox.Show("no funcionó");
+
             }
         }
 

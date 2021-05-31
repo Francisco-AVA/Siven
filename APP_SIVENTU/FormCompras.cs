@@ -71,7 +71,7 @@ namespace APP_SIVENTU
         {
             string codigo = Txtcodigocompras.Text.Trim(),
                 proveedor = Txtproveedorcompras.Text.Trim(),
-                direccion = Txtdescripcioncompras.Text.Trim(),
+                direccion = Txtdireccioncompras.Text.Trim(),
                 telefono = Txttelefonocompras.Text.Trim(),
                 numerocom = Txtnumcompras.Text.Trim(),
                 prododucosoli = Txtsolicitadocompras.Text.Trim(),

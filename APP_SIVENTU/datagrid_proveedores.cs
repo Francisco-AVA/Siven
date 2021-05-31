@@ -7,6 +7,8 @@ namespace APP_SIVENTU
     public partial class datagrid_proveedores : Form
     {
         ControlDe_dgv Control = new ControlDe_dgv();
+        public string idS;
+        ventura ventura = new ventura();
 
         public datagrid_proveedores()
         {
@@ -31,6 +33,7 @@ namespace APP_SIVENTU
         private void datagrid_proveedores_Load(object sender, EventArgs e)
         {
             getproveedores();
+            dataGridViewProveedores.Columns[0].Visible = false;
         }
 
         //MOVIMIENTOS
@@ -52,6 +55,11 @@ namespace APP_SIVENTU
             }
         }
 
+        private void dataGridViewProveedores_CellClick(object sender, DataGridViewCellEventArgs e)
+        {
+            idS = dataGridViewProveedores.Rows[e.RowIndex].Cells[0].Value.ToString();
+        }
+
         private void panel4_MouseUp(object sender, MouseEventArgs e)
         {
             m = 0;
@@ -59,8 +67,25 @@ namespace APP_SIVENTU
 
         private void btlimpiar_prov_Click(object sender, EventArgs e)
         {
-           
+            if (MessageBox.Show("¿Estas seguro de eliminar?", "ELIMINAR", MessageBoxButtons.YesNo) == DialogResult.Yes)
+            {
+                bool resp = ventura.removeGeneral("proveedores", "Id", Convert.ToInt32(idS));
 
+                if (resp)
+                {
+                    //MessageBox.Show("Se eliminó con exito");
+                    getproveedores();
+                }
+                else
+                {
+                    MessageBox.Show("No se pudo eliminar");
+                }
+            }
+            else
+
+            {
+            }
+           
         }
 
     }

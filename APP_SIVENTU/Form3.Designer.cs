@@ -44,6 +44,10 @@ namespace APP_SIVENTU
             this.btlimpiar_regis = new Bunifu.Framework.UI.BunifuFlatButton();
             this.btguardar_regis = new Bunifu.Framework.UI.BunifuFlatButton();
             this.errorempleados = new System.Windows.Forms.ErrorProvider(this.components);
+            this.button_mostrar_emple = new System.Windows.Forms.Button();
+            this.button_mostrar_emple2 = new System.Windows.Forms.Button();
+            this.button_ocultar_emple = new System.Windows.Forms.Button();
+            this.button_ocultar_emple2 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.errorempleados)).BeginInit();
@@ -54,7 +58,7 @@ namespace APP_SIVENTU
             this.label1.AutoSize = true;
             this.label1.BackColor = System.Drawing.Color.Transparent;
             this.label1.Font = new System.Drawing.Font("Times New Roman", 15.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(197, 346);
+            this.label1.Location = new System.Drawing.Point(152, 366);
             this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(69, 31);
@@ -74,7 +78,7 @@ namespace APP_SIVENTU
             this.txtTelefono.LineIdleColor = System.Drawing.Color.Gray;
             this.txtTelefono.LineMouseHoverColor = System.Drawing.Color.FromArgb(((int)(((byte)(87)))), ((int)(((byte)(57)))), ((int)(((byte)(74)))));
             this.txtTelefono.LineThickness = 3;
-            this.txtTelefono.Location = new System.Drawing.Point(204, 460);
+            this.txtTelefono.Location = new System.Drawing.Point(159, 480);
             this.txtTelefono.Margin = new System.Windows.Forms.Padding(5);
             this.txtTelefono.Name = "txtTelefono";
             this.txtTelefono.Size = new System.Drawing.Size(493, 39);
@@ -95,7 +99,7 @@ namespace APP_SIVENTU
             this.txtCorreo.LineIdleColor = System.Drawing.Color.Gray;
             this.txtCorreo.LineMouseHoverColor = System.Drawing.Color.FromArgb(((int)(((byte)(87)))), ((int)(((byte)(57)))), ((int)(((byte)(74)))));
             this.txtCorreo.LineThickness = 3;
-            this.txtCorreo.Location = new System.Drawing.Point(204, 400);
+            this.txtCorreo.Location = new System.Drawing.Point(159, 420);
             this.txtCorreo.Margin = new System.Windows.Forms.Padding(5);
             this.txtCorreo.Name = "txtCorreo";
             this.txtCorreo.Size = new System.Drawing.Size(493, 39);
@@ -111,17 +115,18 @@ namespace APP_SIVENTU
             this.txtConfirmacion.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.txtConfirmacion.HintForeColor = System.Drawing.Color.Empty;
             this.txtConfirmacion.HintText = "Confirme su contraseña";
-            this.txtConfirmacion.isPassword = false;
+            this.txtConfirmacion.isPassword = true;
             this.txtConfirmacion.LineFocusedColor = System.Drawing.Color.FromArgb(((int)(((byte)(110)))), ((int)(((byte)(48)))), ((int)(((byte)(75)))));
             this.txtConfirmacion.LineIdleColor = System.Drawing.Color.Gray;
             this.txtConfirmacion.LineMouseHoverColor = System.Drawing.Color.FromArgb(((int)(((byte)(87)))), ((int)(((byte)(57)))), ((int)(((byte)(74)))));
             this.txtConfirmacion.LineThickness = 3;
-            this.txtConfirmacion.Location = new System.Drawing.Point(204, 286);
+            this.txtConfirmacion.Location = new System.Drawing.Point(159, 301);
             this.txtConfirmacion.Margin = new System.Windows.Forms.Padding(5);
             this.txtConfirmacion.Name = "txtConfirmacion";
-            this.txtConfirmacion.Size = new System.Drawing.Size(493, 39);
+            this.txtConfirmacion.Size = new System.Drawing.Size(435, 51);
             this.txtConfirmacion.TabIndex = 26;
             this.txtConfirmacion.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.txtConfirmacion.OnValueChanged += new System.EventHandler(this.txtConfirmacion_OnValueChanged);
             // 
             // txtContra2
             // 
@@ -131,17 +136,18 @@ namespace APP_SIVENTU
             this.txtContra2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.txtContra2.HintForeColor = System.Drawing.Color.Empty;
             this.txtContra2.HintText = "Ingrese su contraseña";
-            this.txtContra2.isPassword = false;
+            this.txtContra2.isPassword = true;
             this.txtContra2.LineFocusedColor = System.Drawing.Color.FromArgb(((int)(((byte)(110)))), ((int)(((byte)(48)))), ((int)(((byte)(75)))));
             this.txtContra2.LineIdleColor = System.Drawing.Color.Gray;
             this.txtContra2.LineMouseHoverColor = System.Drawing.Color.FromArgb(((int)(((byte)(87)))), ((int)(((byte)(57)))), ((int)(((byte)(74)))));
             this.txtContra2.LineThickness = 3;
-            this.txtContra2.Location = new System.Drawing.Point(204, 236);
+            this.txtContra2.Location = new System.Drawing.Point(159, 227);
             this.txtContra2.Margin = new System.Windows.Forms.Padding(5);
             this.txtContra2.Name = "txtContra2";
-            this.txtContra2.Size = new System.Drawing.Size(493, 39);
+            this.txtContra2.Size = new System.Drawing.Size(435, 51);
             this.txtContra2.TabIndex = 23;
             this.txtContra2.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.txtContra2.OnValueChanged += new System.EventHandler(this.txtContra2_OnValueChanged_1);
             // 
             // txtNombre2
             // 
@@ -156,7 +162,7 @@ namespace APP_SIVENTU
             this.txtNombre2.LineIdleColor = System.Drawing.Color.Gray;
             this.txtNombre2.LineMouseHoverColor = System.Drawing.Color.FromArgb(((int)(((byte)(87)))), ((int)(((byte)(57)))), ((int)(((byte)(74)))));
             this.txtNombre2.LineThickness = 3;
-            this.txtNombre2.Location = new System.Drawing.Point(204, 186);
+            this.txtNombre2.Location = new System.Drawing.Point(159, 177);
             this.txtNombre2.Margin = new System.Windows.Forms.Padding(5);
             this.txtNombre2.Name = "txtNombre2";
             this.txtNombre2.Size = new System.Drawing.Size(493, 39);
@@ -182,7 +188,7 @@ namespace APP_SIVENTU
             this.comboBox1.Items.AddRange(new object[] {
             "Masculino",
             "Femenino"});
-            this.comboBox1.Location = new System.Drawing.Point(291, 353);
+            this.comboBox1.Location = new System.Drawing.Point(246, 373);
             this.comboBox1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.comboBox1.Name = "comboBox1";
             this.comboBox1.Size = new System.Drawing.Size(121, 24);
@@ -234,7 +240,7 @@ namespace APP_SIVENTU
             this.btlimpiar_regis.IconVisible = true;
             this.btlimpiar_regis.IconZoom = 60D;
             this.btlimpiar_regis.IsTab = false;
-            this.btlimpiar_regis.Location = new System.Drawing.Point(492, 559);
+            this.btlimpiar_regis.Location = new System.Drawing.Point(447, 579);
             this.btlimpiar_regis.Margin = new System.Windows.Forms.Padding(5);
             this.btlimpiar_regis.Name = "btlimpiar_regis";
             this.btlimpiar_regis.Normalcolor = System.Drawing.Color.FromArgb(((int)(((byte)(87)))), ((int)(((byte)(57)))), ((int)(((byte)(74)))));
@@ -270,7 +276,7 @@ namespace APP_SIVENTU
             this.btguardar_regis.IconVisible = true;
             this.btguardar_regis.IconZoom = 60D;
             this.btguardar_regis.IsTab = false;
-            this.btguardar_regis.Location = new System.Drawing.Point(217, 559);
+            this.btguardar_regis.Location = new System.Drawing.Point(172, 579);
             this.btguardar_regis.Margin = new System.Windows.Forms.Padding(5);
             this.btguardar_regis.Name = "btguardar_regis";
             this.btguardar_regis.Normalcolor = System.Drawing.Color.FromArgb(((int)(((byte)(87)))), ((int)(((byte)(57)))), ((int)(((byte)(74)))));
@@ -289,6 +295,56 @@ namespace APP_SIVENTU
             // 
             this.errorempleados.ContainerControl = this;
             // 
+            // button_mostrar_emple
+            // 
+            this.button_mostrar_emple.FlatAppearance.BorderSize = 0;
+            this.button_mostrar_emple.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button_mostrar_emple.Image = global::APP_SIVENTU.Properties.Resources.ojo_visible___copia;
+            this.button_mostrar_emple.Location = new System.Drawing.Point(583, 227);
+            this.button_mostrar_emple.Name = "button_mostrar_emple";
+            this.button_mostrar_emple.Size = new System.Drawing.Size(69, 51);
+            this.button_mostrar_emple.TabIndex = 68;
+            this.button_mostrar_emple.UseVisualStyleBackColor = true;
+            this.button_mostrar_emple.Click += new System.EventHandler(this.button_mostrar_emple_Click);
+            // 
+            // button_mostrar_emple2
+            // 
+            this.button_mostrar_emple2.FlatAppearance.BorderSize = 0;
+            this.button_mostrar_emple2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button_mostrar_emple2.Image = global::APP_SIVENTU.Properties.Resources.ojo_visible___copia;
+            this.button_mostrar_emple2.Location = new System.Drawing.Point(583, 301);
+            this.button_mostrar_emple2.Name = "button_mostrar_emple2";
+            this.button_mostrar_emple2.Size = new System.Drawing.Size(69, 51);
+            this.button_mostrar_emple2.TabIndex = 69;
+            this.button_mostrar_emple2.UseVisualStyleBackColor = true;
+            this.button_mostrar_emple2.Click += new System.EventHandler(this.button_mostrar_emple2_Click);
+            // 
+            // button_ocultar_emple
+            // 
+            this.button_ocultar_emple.FlatAppearance.BorderSize = 0;
+            this.button_ocultar_emple.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button_ocultar_emple.ForeColor = System.Drawing.Color.White;
+            this.button_ocultar_emple.Image = global::APP_SIVENTU.Properties.Resources.invisible1;
+            this.button_ocultar_emple.Location = new System.Drawing.Point(583, 227);
+            this.button_ocultar_emple.Margin = new System.Windows.Forms.Padding(0);
+            this.button_ocultar_emple.Name = "button_ocultar_emple";
+            this.button_ocultar_emple.Size = new System.Drawing.Size(69, 51);
+            this.button_ocultar_emple.TabIndex = 70;
+            this.button_ocultar_emple.UseVisualStyleBackColor = true;
+            this.button_ocultar_emple.Click += new System.EventHandler(this.button_ocultar_emple_Click);
+            // 
+            // button_ocultar_emple2
+            // 
+            this.button_ocultar_emple2.FlatAppearance.BorderSize = 0;
+            this.button_ocultar_emple2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button_ocultar_emple2.Image = global::APP_SIVENTU.Properties.Resources.invisible1;
+            this.button_ocultar_emple2.Location = new System.Drawing.Point(583, 301);
+            this.button_ocultar_emple2.Name = "button_ocultar_emple2";
+            this.button_ocultar_emple2.Size = new System.Drawing.Size(69, 51);
+            this.button_ocultar_emple2.TabIndex = 71;
+            this.button_ocultar_emple2.UseVisualStyleBackColor = true;
+            this.button_ocultar_emple2.Click += new System.EventHandler(this.button_ocultar_emple2_Click);
+            // 
             // RegistroDeEmpleados
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -296,6 +352,10 @@ namespace APP_SIVENTU
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(209)))), ((int)(((byte)(167)))), ((int)(((byte)(185)))));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(840, 683);
+            this.Controls.Add(this.button_ocultar_emple2);
+            this.Controls.Add(this.button_ocultar_emple);
+            this.Controls.Add(this.button_mostrar_emple2);
+            this.Controls.Add(this.button_mostrar_emple);
             this.Controls.Add(this.btlimpiar_regis);
             this.Controls.Add(this.btguardar_regis);
             this.Controls.Add(this.comboBox1);
@@ -335,5 +395,9 @@ namespace APP_SIVENTU
         private Bunifu.Framework.UI.BunifuFlatButton btlimpiar_regis;
         private Bunifu.Framework.UI.BunifuFlatButton btguardar_regis;
         private System.Windows.Forms.ErrorProvider errorempleados;
+        private System.Windows.Forms.Button button_mostrar_emple;
+        private System.Windows.Forms.Button button_mostrar_emple2;
+        private System.Windows.Forms.Button button_ocultar_emple2;
+        private System.Windows.Forms.Button button_ocultar_emple;
     }
 }

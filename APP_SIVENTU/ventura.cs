@@ -1,9 +1,5 @@
 ﻿using System;
 using System.Data;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace APP_SIVENTU
 {
@@ -106,7 +102,6 @@ namespace APP_SIVENTU
             throw new NotImplementedException();
         }
         //COMPRAS
-
         public bool Registercom(string codigo, string proveedor, string direccion, string telefono, string numerocom, string prododucosoli, string cantidad, string total, string descrip, string observa, string fecha)
         {
             bool set = conn.setData(string.Format("insert into compras (codigo, proveedor, direccion, telefono, NumeroDeCompras, ProductoSolicitado, Cantidad, TotalCompras, Descripcion, Observaciones, Fecha) values ('{0}', '{1}', '{2}', '{3}', '{4}', '{5}', '{6}', '{7}', '{8}', '{9}', '{10}')", codigo, proveedor, direccion, telefono, numerocom, prododucosoli, cantidad, total, descrip, observa, fecha));
@@ -118,7 +113,17 @@ namespace APP_SIVENTU
             throw new NotImplementedException();
         }
 
-        //-------NUEVO-------- 15-04
+        //INGRESO DE FACTURA
+        public bool Registerfac(string codigo, string producto, string precio, string cantidad, string total)
+        {
+            bool set = conn.setData(string.Format("insert into Factura (Codigo, Producto, Precio, Cantidad, Total) values ('{0}', '{1}', '{2}', '{3}', '{4}')", codigo, producto, precio, cantidad, total));
+            return set;
+        }
+        internal bool Registerfac(string codigo, string producto, string precio, string cantidad)
+        {
+            throw new NotImplementedException();
+        }
+
         public bool veryfycorreo(string email)
         {
             string query = string.Format("SELECT * FROM usuarios WHERE email='{0}'",email); //presiento que no es name- cambie el 0 por 4
@@ -156,5 +161,7 @@ namespace APP_SIVENTU
             string Query = string.Format("DELETE FROM {0} WHERE {1} = {2}", table, idS, id);
             return conn.setData(Query);
         }
+
+        
     }
 }

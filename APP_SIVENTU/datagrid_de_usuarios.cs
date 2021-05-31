@@ -9,6 +9,8 @@ namespace APP_SIVENTU
     {
         
         ControlDe_dgv Control = new ControlDe_dgv();
+        public string idS;
+        ventura ventura = new ventura();
         public datagridEmpleados()
         {
             InitializeComponent();
@@ -29,6 +31,7 @@ namespace APP_SIVENTU
         private void datagridEmpleados_Load(object sender, EventArgs e)
         {
             getusuarios();
+            dataGridViewEmpleados.Columns[0].Visible = false;
         }
 
         private void btmini3_Click(object sender, EventArgs e)
@@ -55,6 +58,11 @@ namespace APP_SIVENTU
             }
         }
 
+        private void dataGridViewEmpleados_CellClick(object sender, DataGridViewCellEventArgs e)
+        {
+            idS = dataGridViewEmpleados.Rows[e.RowIndex].Cells[0].Value.ToString();
+        }
+
         private void panel4_MouseUp(object sender, MouseEventArgs e)
         {
             m = 0;
@@ -63,11 +71,26 @@ namespace APP_SIVENTU
 
         private void btlimpiar_regis_Click(object sender, EventArgs e)
         {
-            //dataGridViewEmpleados.Rows.RemoveAt(dataGridViewEmpleados.SelectedRows[0].Index);
-          
+            if (MessageBox.Show("¿Estas seguro de eliminar?", "ELIMINAR", MessageBoxButtons.YesNo) == DialogResult.Yes)
+            {
+                bool resp = ventura.removeGeneral("usuarios", "Id", Convert.ToInt32(idS));
+
+                if (resp)
+                {
+                    MessageBox.Show("Se eliminó con exito");
+                    getusuarios();
+                }
+                else
+                {
+                    MessageBox.Show("no funcionó");
+                }
+            }
+            else
+
+            {
+            }
             
 
-        }
-
     }
+}
 }
