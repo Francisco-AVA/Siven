@@ -53,5 +53,10 @@ namespace APP_SIVENTU
                 }
             }
         }
+
+        private void btsalirrecu_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
     }
 }

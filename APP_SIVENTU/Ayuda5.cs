@@ -16,5 +16,15 @@ namespace APP_SIVENTU
         {
             InitializeComponent();
         }
+
+        private void btsalir3_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+
+        private void btmini3_Click(object sender, EventArgs e)
+        {
+            WindowState = FormWindowState.Minimized;
+        }
     }
 }

@@ -231,7 +231,7 @@ namespace APP_SIVENTU
             this.txtproductopro.Name = "txtproductopro";
             this.txtproductopro.Size = new System.Drawing.Size(287, 22);
             this.txtproductopro.TabIndex = 46;
-            this.txtproductopro.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.Txtproductopro_KeyPress);
+            this.txtproductopro.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtproductopro_KeyPress);
             // 
             // Txtrubropro
             // 
@@ -406,7 +406,6 @@ namespace APP_SIVENTU
             this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "FormProveedores";
             this.Text = "FormProveedores";
-            this.Load += new System.EventHandler(this.FormProveedores_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.errorpro)).EndInit();
             this.ResumeLayout(false);

@@ -7,6 +7,8 @@ namespace APP_SIVENTU
     public partial class datagrid_productos : Form
     {
         ControlDe_dgv Control = new ControlDe_dgv();
+        public string idS;
+        ventura ventura = new ventura();
 
         public datagrid_productos()
         {
@@ -31,6 +33,8 @@ namespace APP_SIVENTU
         private void datagrid_productos_Load(object sender, EventArgs e)
         {
             getproductos();
+            dataGridViewProductos.Columns[0].Visible = false;
+
         }
 
         //MOVIMIENTO
@@ -40,6 +44,34 @@ namespace APP_SIVENTU
             m = 1;
             mx = e.X;
             my = e.Y;
+        }
+
+        private void dataGridViewProductos_CellClick(object sender, DataGridViewCellEventArgs e)
+        {
+            idS = dataGridViewProductos.Rows[e.RowIndex].Cells[0].Value.ToString();
+        }
+
+        private void btlimpiar_prod_Click(object sender, EventArgs e)
+        {
+            if (MessageBox.Show("¿Estas seguro de salir?", "EXIT", MessageBoxButtons.YesNo) == DialogResult.Yes)
+            {
+                bool resp = ventura.removeGeneral("productos", "Id", Convert.ToInt32(idS));
+
+                if (resp)
+                {
+                    MessageBox.Show("Se eliminó con exito");
+                    getproductos();
+                }
+                else
+                {
+
+                }
+            }
+            else
+
+            {
+            }
+           
         }
 
         private void panel4_MouseMove(object sender, MouseEventArgs e)

@@ -107,6 +107,7 @@
     <Compile Include="CambioDeContraseña.Designer.cs">
       <DependentUpon>CambioDeContraseña.cs</DependentUpon>
     </Compile>
+    <Compile Include="clsFactura.cs" />
     <Compile Include="CodigoDeRecuperacion.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -318,6 +319,11 @@
       <DependentUpon>databaseSIVENTU.mdf</DependentUpon>
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
+    <None Include="Resources\disquete1.png" />
+    <None Include="Resources\ojo-visible - copia.png" />
+    <None Include="Resources\invisible1.png" />
+    <None Include="Resources\invisible.png" />
+    <None Include="Resources\ojo-visible.png" />
     <None Include="Resources\escoba.png" />
     <None Include="Resources\regreso.png" />
     <None Include="Resources\user1.png" />

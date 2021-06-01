@@ -111,6 +111,7 @@ namespace APP_SIVENTU
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.Panel6contenedor.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(194)))), ((int)(((byte)(192)))));
+            this.Panel6contenedor.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("Panel6contenedor.BackgroundImage")));
             this.Panel6contenedor.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.Panel6contenedor.Controls.Add(this.logodemenu);
             this.Panel6contenedor.GradientBottomLeft = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(194)))), ((int)(((byte)(192)))));
@@ -127,12 +128,11 @@ namespace APP_SIVENTU
             // logodemenu
             // 
             this.logodemenu.BackColor = System.Drawing.Color.Transparent;
-            this.logodemenu.Dock = System.Windows.Forms.DockStyle.Fill;
             this.logodemenu.Image = global::APP_SIVENTU.Properties.Resources.logo_removebg_preview;
-            this.logodemenu.Location = new System.Drawing.Point(0, 0);
+            this.logodemenu.Location = new System.Drawing.Point(-4, 14);
             this.logodemenu.Margin = new System.Windows.Forms.Padding(4);
             this.logodemenu.Name = "logodemenu";
-            this.logodemenu.Size = new System.Drawing.Size(840, 683);
+            this.logodemenu.Size = new System.Drawing.Size(840, 614);
             this.logodemenu.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.logodemenu.TabIndex = 0;
             this.logodemenu.TabStop = false;

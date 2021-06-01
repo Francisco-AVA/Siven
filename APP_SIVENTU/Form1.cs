@@ -26,7 +26,6 @@ namespace APP_SIVENTU
             else
 
             {
-                MessageBox.Show("No se pudo cerrar");
             }
         }
 
@@ -41,11 +40,6 @@ namespace APP_SIVENTU
             InicioDeSeccion Form = new InicioDeSeccion();
             Form.Show();
             this.Hide();
-        }
-
-        private void Presentacion_Load(object sender, EventArgs e)
-        {
-
         }
     }
 }

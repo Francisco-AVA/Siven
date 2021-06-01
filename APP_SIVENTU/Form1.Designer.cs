@@ -142,7 +142,7 @@ namespace APP_SIVENTU
             this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "Presentacion";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Load += new System.EventHandler(this.Presentacion_Load);
+  
             this.panel1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.Btmini)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.btsalir)).EndInit();

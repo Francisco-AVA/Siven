@@ -30,7 +30,7 @@ namespace APP_SIVENTU
 
         private void Txtprecioproduc_KeyPress(object sender, KeyPressEventArgs e)
         {
-            validacion.SoloNumeros(e);
+            
         }
 
         private void Txtexistenciasproduc_KeyPress(object sender, KeyPressEventArgs e)
@@ -69,6 +69,8 @@ namespace APP_SIVENTU
                 MessageBox.Show("producto no registrado");
             }
         }
+
+       
     }
 }
 
