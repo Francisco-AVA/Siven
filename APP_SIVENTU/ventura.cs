@@ -23,7 +23,7 @@ namespace APP_SIVENTU
         }
         
         // LOGIN
-        public bool Register(string Nombre, string password1,string Sexo, string Correo,string Telefono)
+        public bool Register(string Nombre, string password1, string Telefono, string Sexo, string Correo)
         {
             bool set = conn.setData(string.Format("insert into usuarios (name, password, phone, sex, email) values ('{0}', '{1}', '{2}', '{3}', '{4}')", Nombre, password1, Telefono, Sexo, Correo));
             return set;

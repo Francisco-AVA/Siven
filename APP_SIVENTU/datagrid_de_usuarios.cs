@@ -63,6 +63,11 @@ namespace APP_SIVENTU
             idS = dataGridViewEmpleados.Rows[e.RowIndex].Cells[0].Value.ToString();
         }
 
+        private void dataGridViewEmpleados_CellClick(object sender, DataGridViewCellEventArgs e)
+        {
+            idS = dataGridViewEmpleados.Rows[e.RowIndex].Cells[0].Value.ToString();
+        }
+
         private void panel4_MouseUp(object sender, MouseEventArgs e)
         {
             m = 0;

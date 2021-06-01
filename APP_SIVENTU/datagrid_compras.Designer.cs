@@ -114,6 +114,7 @@ namespace APP_SIVENTU
             this.dataGridViewCompras.Size = new System.Drawing.Size(739, 350);
             this.dataGridViewCompras.TabIndex = 86;
             this.dataGridViewCompras.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridViewCompras_CellClick);
+            this.dataGridViewCompras.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridViewCompras_CellContentClick);
             // 
             // panel4
             // 

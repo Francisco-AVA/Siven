@@ -61,7 +61,7 @@ namespace APP_SIVENTU
             this.label1.Location = new System.Drawing.Point(152, 366);
             this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(69, 31);
+            this.label1.Size = new System.Drawing.Size(52, 24);
             this.label1.TabIndex = 31;
             this.label1.Text = "Sexo";
             // 
@@ -81,7 +81,7 @@ namespace APP_SIVENTU
             this.txtTelefono.Location = new System.Drawing.Point(159, 480);
             this.txtTelefono.Margin = new System.Windows.Forms.Padding(5);
             this.txtTelefono.Name = "txtTelefono";
-            this.txtTelefono.Size = new System.Drawing.Size(493, 39);
+            this.txtTelefono.Size = new System.Drawing.Size(370, 32);
             this.txtTelefono.TabIndex = 28;
             this.txtTelefono.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
             this.txtTelefono.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txttelefonoo_KeyPress);
@@ -102,7 +102,7 @@ namespace APP_SIVENTU
             this.txtCorreo.Location = new System.Drawing.Point(159, 420);
             this.txtCorreo.Margin = new System.Windows.Forms.Padding(5);
             this.txtCorreo.Name = "txtCorreo";
-            this.txtCorreo.Size = new System.Drawing.Size(493, 39);
+            this.txtCorreo.Size = new System.Drawing.Size(370, 32);
             this.txtCorreo.TabIndex = 27;
             this.txtCorreo.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
             this.txtCorreo.OnValueChanged += new System.EventHandler(this.txtCorreo_OnValueChanged);
@@ -165,7 +165,7 @@ namespace APP_SIVENTU
             this.txtNombre2.Location = new System.Drawing.Point(159, 177);
             this.txtNombre2.Margin = new System.Windows.Forms.Padding(5);
             this.txtNombre2.Name = "txtNombre2";
-            this.txtNombre2.Size = new System.Drawing.Size(493, 39);
+            this.txtNombre2.Size = new System.Drawing.Size(370, 32);
             this.txtNombre2.TabIndex = 22;
             this.txtNombre2.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
             this.txtNombre2.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtNombre2_KeyPress);
@@ -175,10 +175,9 @@ namespace APP_SIVENTU
             this.Label2.AutoSize = true;
             this.Label2.BackColor = System.Drawing.Color.Transparent;
             this.Label2.Font = new System.Drawing.Font("Times New Roman", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Label2.Location = new System.Drawing.Point(243, 18);
-            this.Label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.Label2.Location = new System.Drawing.Point(182, 15);
             this.Label2.Name = "Label2";
-            this.Label2.Size = new System.Drawing.Size(522, 42);
+            this.Label2.Size = new System.Drawing.Size(402, 32);
             this.Label2.TabIndex = 21;
             this.Label2.Text = "REGISTRO DE EMPLEADOS\r\n";
             // 
@@ -191,17 +190,16 @@ namespace APP_SIVENTU
             this.comboBox1.Location = new System.Drawing.Point(246, 373);
             this.comboBox1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(121, 24);
+            this.comboBox1.Size = new System.Drawing.Size(92, 21);
             this.comboBox1.TabIndex = 32;
             // 
             // pictureBox2
             // 
             this.pictureBox2.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
-            this.pictureBox2.Location = new System.Drawing.Point(43, 18);
-            this.pictureBox2.Margin = new System.Windows.Forms.Padding(4);
+            this.pictureBox2.Location = new System.Drawing.Point(32, 15);
             this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(191, 137);
+            this.pictureBox2.Size = new System.Drawing.Size(143, 111);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox2.TabIndex = 25;
             this.pictureBox2.TabStop = false;
@@ -211,10 +209,9 @@ namespace APP_SIVENTU
             this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox1.Enabled = false;
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(383, 64);
-            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4);
+            this.pictureBox1.Location = new System.Drawing.Point(287, 52);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(132, 91);
+            this.pictureBox1.Size = new System.Drawing.Size(99, 74);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox1.TabIndex = 24;
             this.pictureBox1.TabStop = false;
@@ -247,7 +244,7 @@ namespace APP_SIVENTU
             this.btlimpiar_regis.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(163)))), ((int)(((byte)(124)))), ((int)(((byte)(130)))));
             this.btlimpiar_regis.OnHoverTextColor = System.Drawing.Color.White;
             this.btlimpiar_regis.selected = false;
-            this.btlimpiar_regis.Size = new System.Drawing.Size(185, 70);
+            this.btlimpiar_regis.Size = new System.Drawing.Size(154, 57);
             this.btlimpiar_regis.TabIndex = 67;
             this.btlimpiar_regis.Text = "ELIMINAR";
             this.btlimpiar_regis.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -283,7 +280,7 @@ namespace APP_SIVENTU
             this.btguardar_regis.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(163)))), ((int)(((byte)(124)))), ((int)(((byte)(130)))));
             this.btguardar_regis.OnHoverTextColor = System.Drawing.Color.White;
             this.btguardar_regis.selected = false;
-            this.btguardar_regis.Size = new System.Drawing.Size(195, 70);
+            this.btguardar_regis.Size = new System.Drawing.Size(146, 57);
             this.btguardar_regis.TabIndex = 66;
             this.btguardar_regis.Text = "GUARDAR";
             this.btguardar_regis.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -347,7 +344,7 @@ namespace APP_SIVENTU
             // 
             // RegistroDeEmpleados
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(209)))), ((int)(((byte)(167)))), ((int)(((byte)(185)))));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
@@ -369,7 +366,6 @@ namespace APP_SIVENTU
             this.Controls.Add(this.txtNombre2);
             this.Controls.Add(this.Label2);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "RegistroDeEmpleados";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Load += new System.EventHandler(this.RegistroDeEmpleados_Load);

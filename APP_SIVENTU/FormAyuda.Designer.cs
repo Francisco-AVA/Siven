@@ -348,6 +348,7 @@ namespace APP_SIVENTU
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "FormAyuda";
             this.Text = "FormAyuda";
+            this.Load += new System.EventHandler(this.FormAyuda_Load);
             this.panel3.ResumeLayout(false);
             this.panel3.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.payuda2)).EndInit();

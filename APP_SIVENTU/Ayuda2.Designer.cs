@@ -41,6 +41,9 @@ namespace APP_SIVENTU
             ((System.ComponentModel.ISupportInitialize)(this.btsalir3)).BeginInit();
             this.panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            this.panel3.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.btmini3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btsalir3)).BeginInit();
             this.SuspendLayout();
             // 
             // panel3
@@ -133,6 +136,9 @@ namespace APP_SIVENTU
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            this.panel3.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.btmini3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btsalir3)).EndInit();
             this.ResumeLayout(false);
 
         }

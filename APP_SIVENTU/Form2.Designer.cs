@@ -152,6 +152,32 @@ namespace APP_SIVENTU
             this.button_desactive.UseVisualStyleBackColor = true;
             this.button_desactive.Click += new System.EventHandler(this.button_desactive_Click);
             // 
+            // button_ocultar
+            // 
+            this.button_ocultar.FlatAppearance.BorderSize = 0;
+            this.button_ocultar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button_ocultar.Image = global::APP_SIVENTU.Properties.Resources.invisible1;
+            this.button_ocultar.Location = new System.Drawing.Point(496, 268);
+            this.button_ocultar.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button_ocultar.Name = "button_ocultar";
+            this.button_ocultar.Size = new System.Drawing.Size(49, 44);
+            this.button_ocultar.TabIndex = 13;
+            this.button_ocultar.UseVisualStyleBackColor = true;
+            this.button_ocultar.Click += new System.EventHandler(this.button_ocultar_Click);
+            // 
+            // button_desactive
+            // 
+            this.button_desactive.FlatAppearance.BorderSize = 0;
+            this.button_desactive.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button_desactive.Image = global::APP_SIVENTU.Properties.Resources.ojo_visible___copia;
+            this.button_desactive.Location = new System.Drawing.Point(496, 268);
+            this.button_desactive.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button_desactive.Name = "button_desactive";
+            this.button_desactive.Size = new System.Drawing.Size(49, 44);
+            this.button_desactive.TabIndex = 12;
+            this.button_desactive.UseVisualStyleBackColor = true;
+            this.button_desactive.Click += new System.EventHandler(this.button_desactive_Click);
+            // 
             // pictureBox2
             // 
             this.pictureBox2.BackColor = System.Drawing.Color.Transparent;
@@ -280,6 +306,7 @@ namespace APP_SIVENTU
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "InicioDeSeccion";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.Load += new System.EventHandler(this.InicioDeSeccion_Load);
             this.panel2.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.botonderegreso)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.btmini2)).EndInit();

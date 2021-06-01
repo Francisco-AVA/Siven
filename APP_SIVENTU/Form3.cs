@@ -13,6 +13,7 @@ namespace APP_SIVENTU
         }
         private void btguardar_regis_Click(object sender, EventArgs e)
         {
+            
             string Nombre= txtNombre2.Text.Trim(), 
                 password1 = txtContra2.Text.Trim(),
                 RepetirContraseña=txtConfirmacion.Text.Trim(),
@@ -28,6 +29,7 @@ namespace APP_SIVENTU
                 txtNombre2.Text = "";
                 txtContra2.Text = "";
                 txtConfirmacion.Text = "";
+                comboBox1.Text = "";
                 txtCorreo.Text = "";
                 txtTelefono.Text = "";
                 comboBox1.Text = "";

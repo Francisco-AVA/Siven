@@ -174,5 +174,8 @@ namespace APP_SIVENTU
         private System.Windows.Forms.PictureBox pictureBox2;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Panel panel3;
+        private System.Windows.Forms.PictureBox btmini3;
+        private System.Windows.Forms.PictureBox btsalir3;
     }
 }

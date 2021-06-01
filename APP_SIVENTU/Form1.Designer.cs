@@ -48,9 +48,8 @@ namespace APP_SIVENTU
             this.panel1.Controls.Add(this.btsalir);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel1.Location = new System.Drawing.Point(0, 0);
-            this.panel1.Margin = new System.Windows.Forms.Padding(4);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(1077, 49);
+            this.panel1.Size = new System.Drawing.Size(808, 40);
             this.panel1.TabIndex = 0;
             // 
             // Btmini
@@ -58,10 +57,9 @@ namespace APP_SIVENTU
             this.Btmini.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("Btmini.BackgroundImage")));
             this.Btmini.Cursor = System.Windows.Forms.Cursors.Hand;
             this.Btmini.Image = ((System.Drawing.Image)(resources.GetObject("Btmini.Image")));
-            this.Btmini.Location = new System.Drawing.Point(961, 6);
-            this.Btmini.Margin = new System.Windows.Forms.Padding(4);
+            this.Btmini.Location = new System.Drawing.Point(721, 5);
             this.Btmini.Name = "Btmini";
-            this.Btmini.Size = new System.Drawing.Size(40, 37);
+            this.Btmini.Size = new System.Drawing.Size(30, 30);
             this.Btmini.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.Btmini.TabIndex = 1;
             this.Btmini.TabStop = false;
@@ -71,10 +69,9 @@ namespace APP_SIVENTU
             // 
             this.btsalir.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btsalir.Image = ((System.Drawing.Image)(resources.GetObject("btsalir.Image")));
-            this.btsalir.Location = new System.Drawing.Point(1021, 6);
-            this.btsalir.Margin = new System.Windows.Forms.Padding(4);
+            this.btsalir.Location = new System.Drawing.Point(766, 5);
             this.btsalir.Name = "btsalir";
-            this.btsalir.Size = new System.Drawing.Size(40, 37);
+            this.btsalir.Size = new System.Drawing.Size(30, 30);
             this.btsalir.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.btsalir.TabIndex = 0;
             this.btsalir.TabStop = false;
@@ -101,14 +98,14 @@ namespace APP_SIVENTU
             this.btacces.IconVisible = true;
             this.btacces.IconZoom = 70D;
             this.btacces.IsTab = false;
-            this.btacces.Location = new System.Drawing.Point(397, 553);
-            this.btacces.Margin = new System.Windows.Forms.Padding(5);
+            this.btacces.Location = new System.Drawing.Point(298, 449);
+            this.btacces.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btacces.Name = "btacces";
             this.btacces.Normalcolor = System.Drawing.Color.FromArgb(((int)(((byte)(87)))), ((int)(((byte)(57)))), ((int)(((byte)(74)))));
             this.btacces.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(135)))), ((int)(((byte)(92)))), ((int)(((byte)(116)))));
             this.btacces.OnHoverTextColor = System.Drawing.Color.White;
             this.btacces.selected = false;
-            this.btacces.Size = new System.Drawing.Size(316, 100);
+            this.btacces.Size = new System.Drawing.Size(237, 81);
             this.btacces.TabIndex = 1;
             this.btacces.Text = "INGRESAR";
             this.btacces.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -120,26 +117,24 @@ namespace APP_SIVENTU
             // 
             this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox1.Image = global::APP_SIVENTU.Properties.Resources.logo_removebg_preview;
-            this.pictureBox1.Location = new System.Drawing.Point(191, 57);
-            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4);
+            this.pictureBox1.Location = new System.Drawing.Point(143, 46);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(718, 552);
+            this.pictureBox1.Size = new System.Drawing.Size(538, 448);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox1.TabIndex = 2;
             this.pictureBox1.TabStop = false;
             // 
             // Presentacion
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(194)))), ((int)(((byte)(192)))));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(1077, 708);
+            this.ClientSize = new System.Drawing.Size(808, 575);
             this.Controls.Add(this.btacces);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.pictureBox1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "Presentacion";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
   
